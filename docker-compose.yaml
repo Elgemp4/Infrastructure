@@ -1,4 +1,22 @@
 services:
+  #A local private docker registry for competitors to publish their modules docker images onto
+  registry:
+    container_name: registry
+    restart: always
+    image: registry
+    ports:
+      - 5000:5000
+    volumes:
+      - ./config/config.yml:/etc/docker/registry/config.yml:ro
+      - ./data:/var/lib/registry:rw
+  # A service that will periodically check for new images versions in the local private docker registry and deploy them if needed
+  watchtower:
+    image: containrrr/watchtower
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /root/.docker/config.json:/config.json
+    command: --interval 30
+  # MariaDB Server for services & competitors databases
   db:
     image: mariadb:10.11
     restart: always
@@ -10,7 +28,7 @@ services:
       MYSQL_ROOT_PASSWORD: root
     networks:
       - gitea-net
-
+  # Web interface for interacting with MariaDB server
   phpmyadmin:
     image: phpmyadmin
     restart: always
@@ -22,7 +40,8 @@ services:
       PMA_ARBITRARY: 0
     networks:
       - gitea-net
-  nginx:
+  # A machine wide reverse proxy for host reserve proxy reversing
+  general-reverse-proxy:
     image: nginx:alpine
     container_name: reverse-proxy
     volumes:
@@ -33,6 +52,7 @@ services:
     network_mode: host
     depends_on:
       - phpmyadmin
+  # The gitea service (equivalent of local github)
   gitea:
     image: docker.gitea.com/gitea:1.24.3
     container_name: gitea
@@ -49,6 +69,7 @@ services:
     ports:
       - "3000:3000"
       - "22:22"
+  # The runner for gitea action allowing for the CI/CD pipelines to work
   gitea-runner:
     image: gitea/act_runner:latest
     container_name: gitea-runner

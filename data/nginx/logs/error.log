@@ -429,3 +429,5 @@
 2025/07/17 12:48:39 [notice] 1#1: start worker process 25
 2025/07/17 12:48:39 [notice] 1#1: start worker process 26
 2025/07/17 12:48:39 [notice] 1#1: start worker process 27
+2025/07/17 12:53:58 [warn] 20#20: *34 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Emilien/react-template.git/git-receive-pack HTTP/1.1", host: "gitea.startech.be"
+2025/07/17 12:58:43 [warn] 22#22: *156 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 127.0.0.1, server: gitea.startech.be, request: "POST /competition/react-template.git/git-receive-pack HTTP/1.1", host: "gitea.startech.be"
