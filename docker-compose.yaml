@@ -1,0 +1,39 @@
+services:
+  db:
+    image: mariadb:10.11
+    restart: always
+    ports:
+      - 3306:3306
+    volumes:
+      - ./data/mariadb_data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    networks:
+      - gitea-net
+
+  phpmyadmin:
+    image: phpmyadmin
+    restart: always
+    ports:
+      - 8080:80
+    environment:
+      PMA_HOST: db
+      PMA_PORT: 3306
+      PMA_ARBITRARY: 0
+    networks:
+      - gitea-net
+  nginx:
+    image: nginx:alpine
+    container_name: reverse-proxy
+    volumes:
+      - ./data/nginx/conf.d:/etc/nginx/conf.d
+      - ./data/nginx/certs:/etc/nginx/certs
+      - ./data/nginx/html:/usr/share/nginx/html
+      - ./data/nginx/logs:/var/log/nginx
+    network_mode: host
+    depends_on:
+      - phpmyadmin
+
+networks:
+  gitea-net:
+    driver: bridge
