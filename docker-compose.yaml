@@ -1,21 +1,28 @@
 services:
   #A local private docker registry for competitors to publish their modules docker images onto
   registry:
-    container_name: registry
+    image: registry:2
     restart: always
-    image: registry
     ports:
-      - 5000:5000
+      - "5000:5000"
+    environment:
+      REGISTRY_AUTH: htpasswd
+      REGISTRY_AUTH_HTPASSWD_REALM: Registry-Realm
+      REGISTRY_AUTH_HTPASSWD_PATH: /auth/registry.passwd
+      REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY: /data
     volumes:
-      - ./config/config.yml:/etc/docker/registry/config.yml:ro
-      - ./data:/var/lib/registry:rw
+      - ./data/local-registry/data:/data
+      - ./data/local-registry/auth:/auth
+    networks:
+      - gitea-net
   # A service that will periodically check for new images versions in the local private docker registry and deploy them if needed
   watchtower:
     image: containrrr/watchtower
+    restart: always
+
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-      - /root/.docker/config.json:/config.json
-    command: --interval 30
+    command: --interval 30 --cleanup=true # The intervals in second at which watch tower will check for updates
   # MariaDB Server for services & competitors databases
   db:
     image: mariadb:10.11
@@ -40,12 +47,23 @@ services:
       PMA_ARBITRARY: 0
     networks:
       - gitea-net
+  portainer:
+    image: portainer/portainer-ce
+    container_name: portainer
+    restart: always
+    ports:
+      - "9000:9000"
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+    networks:
+      - gitea-net
   # A machine wide reverse proxy for host reserve proxy reversing
   general-reverse-proxy:
     image: nginx:alpine
     container_name: reverse-proxy
     volumes:
       - ./data/nginx/conf.d:/etc/nginx/conf.d
+      - ./data/nginx/ssl/:/etc/nginx/ssl/
       - ./data/nginx/certs:/etc/nginx/certs
       - ./data/nginx/html:/usr/share/nginx/html
       - ./data/nginx/logs:/var/log/nginx
