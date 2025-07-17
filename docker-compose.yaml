@@ -33,7 +33,46 @@ services:
     network_mode: host
     depends_on:
       - phpmyadmin
-
+  gitea:
+    image: docker.gitea.com/gitea:1.24.3
+    container_name: gitea
+    environment:
+      - USER_UID=1000
+      - USER_GID=1000
+    restart: always
+    networks:
+      - gitea-net
+    volumes:
+      - ./data/gitea:/data
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+    ports:
+      - "3000:3000"
+      - "222:22"
+  gitea-runner:
+    image: gitea/act_runner:latest
+    container_name: gitea-runner
+    depends_on:
+      - gitea
+    volumes:
+      - ./data/gitea-runner:/data
+      - /var/run/docker.sock:/var/run/docker.sock
+    entrypoint: ["/bin/sh", "-c"]
+    command:
+      - |
+        if [ ! -f /data/.runner ]; then
+          gitea-token=$(curl -s -X POST http://gitea:3000/api/v1/users/admin/tokens \
+            -H "Content-Type: application/json" \
+            -u admin:admin \
+            -d '{"name":"runner-token"}' | jq -r .sha1)
+          /usr/local/bin/act_runner register \
+            --instance http://gitea:3000 \
+            --token $gitea-token \
+            --name runner01 \
+            --labels docker
+          touch /data/.runner
+        fi
+        /usr/local/bin/act_runner daemon
 networks:
   gitea-net:
     driver: bridge

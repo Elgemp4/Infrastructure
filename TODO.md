@@ -1,8 +1,8 @@
 - Installer portainer V
 - Créer DB mysql V
 - Créer PMA V
-- Setup NGINX pour reverse proxy les différents noms de domaines au bon service en interne
-- Créer gitea
+- Setup NGINX pour reverse proxy les différents noms de domaines au bon service en interne V
+- Créer gitea V
 - Setup gitea avec les templates
 
 # Noms des services
