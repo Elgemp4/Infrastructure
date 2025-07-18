@@ -1,0 +1,3 @@
+container:
+  network: "infrastructure_gitea-net"
+  options: "--dns 172.25.0.10"

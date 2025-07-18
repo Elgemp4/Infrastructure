@@ -1,13 +1,18 @@
 services:
   bind9:
+    container_name: bind-dns
     image: ubuntu/bind9:latest
+    environment:
+      - BIND9_USER=root
+      - TZ=America/New_York
     ports:
-      - "53:53/udp"
       - "53:53/tcp"
+      - "53:53/udp"
     volumes:
-      - ./data/dns/zones:/var/lib/bind
-      - ./data/dns/named.conf:/etc/bind/named.conf
-
+      - ./data/dns/config:/etc/bind
+      - ./data/dns/cache:/var/cache/bind
+      - ./data/dns/records:/var/lib/bind
+    restart: unless-stopped
     networks:
       gitea-net:
         ipv4_address: 172.25.0.10
