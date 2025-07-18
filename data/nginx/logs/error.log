@@ -3654,3 +3654,72 @@
 2025/07/18 11:09:01 [notice] 1#1: signal 17 (SIGCHLD) received from 21
 2025/07/18 11:09:01 [notice] 1#1: worker process 21 exited with code 0
 2025/07/18 11:09:01 [notice] 1#1: exit
+2025/07/18 11:09:22 [notice] 1#1: using the "epoll" event method
+2025/07/18 11:09:22 [notice] 1#1: nginx/1.29.0
+2025/07/18 11:09:22 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/07/18 11:09:22 [notice] 1#1: OS: Linux 6.15.6-arch1-1
+2025/07/18 11:09:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2025/07/18 11:09:22 [notice] 1#1: start worker processes
+2025/07/18 11:09:22 [notice] 1#1: start worker process 20
+2025/07/18 11:09:22 [notice] 1#1: start worker process 21
+2025/07/18 11:09:22 [notice] 1#1: start worker process 22
+2025/07/18 11:09:22 [notice] 1#1: start worker process 23
+2025/07/18 11:09:22 [notice] 1#1: start worker process 24
+2025/07/18 11:09:22 [notice] 1#1: start worker process 25
+2025/07/18 11:09:22 [notice] 1#1: start worker process 26
+2025/07/18 11:09:22 [notice] 1#1: start worker process 27
+2025/07/18 11:09:22 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.25.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/Declare HTTP/1.1", upstream: "http://172.25.0.6:3000/api/actions/runner.v1.RunnerService/Declare", host: "gitea.elgem.be"
+2025/07/18 11:09:22 [error] 21#21: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 172.25.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/Declare HTTP/1.1", upstream: "http://172.25.0.6:3000/api/actions/runner.v1.RunnerService/Declare", host: "gitea.elgem.be"
+2025/07/18 11:09:22 [error] 22#22: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 172.25.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/Declare HTTP/1.1", upstream: "http://172.25.0.6:3000/api/actions/runner.v1.RunnerService/Declare", host: "gitea.elgem.be"
+2025/07/18 11:09:23 [error] 24#24: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 172.25.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/Declare HTTP/1.1", upstream: "http://172.25.0.6:3000/api/actions/runner.v1.RunnerService/Declare", host: "gitea.elgem.be"
+2025/07/18 11:09:24 [error] 25#25: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 172.25.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/Declare HTTP/1.1", upstream: "http://172.25.0.6:3000/api/actions/runner.v1.RunnerService/Declare", host: "gitea.elgem.be"
+2025/07/18 11:14:21 [error] 22#22: *436 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.25.0.1, server: registry.elgem.be, request: "GET / HTTP/1.1", host: "registry.elgem.be"
+2025/07/18 11:14:21 [error] 22#22: *436 open() "/etc/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.25.0.1, server: registry.elgem.be, request: "GET /favicon.ico HTTP/1.1", host: "registry.elgem.be", referrer: "https://registry.elgem.be/"
+2025/07/18 11:43:20 [warn] 26#26: *1712 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 172.25.0.1, server: gitea.elgem.be, request: "PATCH /v2/admin/module-a/blobs/uploads/ewmuf9r6gnorn2qavafxqwsie HTTP/1.1", host: "gitea.elgem.be"
+2025/07/18 11:43:20 [warn] 21#21: *1766 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 172.25.0.1, server: gitea.elgem.be, request: "PATCH /v2/admin/module-a/blobs/uploads/n5vx7zqacfjesazsuaiuf1ru6 HTTP/1.1", host: "gitea.elgem.be"
+2025/07/18 11:43:20 [warn] 20#20: *1764 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000003, client: 172.25.0.1, server: gitea.elgem.be, request: "PATCH /v2/admin/module-a/blobs/uploads/lca5ndswulaxocw6ll3czvfdl HTTP/1.1", host: "gitea.elgem.be"
+2025/07/18 11:43:25 [warn] 21#21: *1803 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000004, client: 172.25.0.1, server: gitea.elgem.be, request: "PATCH /v2/admin/module-a/blobs/uploads/gkfnlexdtjhvjnvjwirri3elw HTTP/1.1", host: "gitea.elgem.be"
+2025/07/18 11:44:37 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/07/18 11:44:37 [notice] 20#20: gracefully shutting down
+2025/07/18 11:44:37 [notice] 21#21: gracefully shutting down
+2025/07/18 11:44:37 [notice] 25#25: gracefully shutting down
+2025/07/18 11:44:37 [notice] 22#22: gracefully shutting down
+2025/07/18 11:44:37 [notice] 20#20: exiting
+2025/07/18 11:44:37 [notice] 21#21: exiting
+2025/07/18 11:44:37 [notice] 25#25: exiting
+2025/07/18 11:44:37 [notice] 22#22: exiting
+2025/07/18 11:44:37 [notice] 24#24: gracefully shutting down
+2025/07/18 11:44:37 [notice] 24#24: exiting
+2025/07/18 11:44:37 [notice] 23#23: gracefully shutting down
+2025/07/18 11:44:37 [notice] 23#23: exiting
+2025/07/18 11:44:37 [notice] 20#20: exit
+2025/07/18 11:44:37 [notice] 21#21: exit
+2025/07/18 11:44:37 [notice] 26#26: gracefully shutting down
+2025/07/18 11:44:37 [notice] 24#24: exit
+2025/07/18 11:44:37 [notice] 23#23: exit
+2025/07/18 11:44:37 [notice] 26#26: exiting
+2025/07/18 11:44:37 [notice] 26#26: exit
+2025/07/18 11:44:37 [notice] 25#25: exit
+2025/07/18 11:44:37 [notice] 27#27: gracefully shutting down
+2025/07/18 11:44:37 [notice] 27#27: exiting
+2025/07/18 11:44:37 [notice] 27#27: exit
+2025/07/18 11:44:37 [notice] 22#22: exit
+2025/07/18 11:44:37 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2025/07/18 11:44:37 [notice] 1#1: worker process 23 exited with code 0
+2025/07/18 11:44:37 [notice] 1#1: worker process 26 exited with code 0
+2025/07/18 11:44:37 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 11:44:37 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2025/07/18 11:44:37 [notice] 1#1: worker process 25 exited with code 0
+2025/07/18 11:44:37 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 11:44:37 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2025/07/18 11:44:37 [notice] 1#1: worker process 21 exited with code 0
+2025/07/18 11:44:37 [notice] 1#1: worker process 22 exited with code 0
+2025/07/18 11:44:37 [notice] 1#1: worker process 27 exited with code 0
+2025/07/18 11:44:37 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 11:44:37 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/07/18 11:44:37 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/07/18 11:44:37 [notice] 1#1: worker process 24 exited with code 0
+2025/07/18 11:44:37 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 11:44:37 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2025/07/18 11:44:37 [notice] 1#1: worker process 20 exited with code 0
+2025/07/18 11:44:37 [notice] 1#1: exit

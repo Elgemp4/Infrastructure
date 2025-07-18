@@ -667,3 +667,21 @@
 13:06:52.384531 version@stat F·[2 1] S·1024B[442B 582B] Sc·[0.50 0.00]
 13:06:52.387824 db@janitor F·5 G·0
 13:06:52.387842 db@open done T·4.589211ms
+=============== Jul 18, 2025 (CEST) ===============
+13:09:22.316831 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:09:22.317046 version@stat F·[2 1] S·1024B[442B 582B] Sc·[0.50 0.00]
+13:09:22.317062 db@open opening
+13:09:22.317100 journal@recovery F·1
+13:09:22.317162 journal@recovery recovering @153
+13:09:22.318482 memdb@flush created L0@155 N·6 S·221B "act..\x00\x00\x00,d245":"act..:7},v241"
+13:09:22.318608 version@stat F·[3 1] S·1KiB[663B 582B] Sc·[0.75 0.00]
+13:09:22.322544 db@janitor F·6 G·0
+13:09:22.322562 db@open done T·5.493562ms
+13:12:19.842084 table@compaction L0·3 -> L1·1 S·1KiB Q·253
+13:12:19.846195 table@build created L1@158 N·28 S·582B "act..igh,v242":"web..low,v19"
+13:12:19.846226 version@stat F·[0 1] S·582B[0B 582B] Sc·[0.00 0.00]
+13:12:19.847331 table@compaction committed F-3 S-663B Ke·0 D·18 T·5.204704ms
+13:12:19.847410 table@remove removed @155
+13:12:19.847429 table@remove removed @152
+13:12:19.847452 table@remove removed @149
+13:12:19.847470 table@remove removed @146

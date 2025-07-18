@@ -18,20 +18,20 @@ services:
         ipv4_address: 172.25.0.10
 
   #A local private docker registry for competitors to publish their modules docker images onto
-  registry:
-    image: registry:2
-    restart: always
-    environment:
-      REGISTRY_AUTH: htpasswd
-      REGISTRY_AUTH_HTPASSWD_REALM: Registry-Realm
-      REGISTRY_AUTH_HTPASSWD_PATH: /auth/registry.passwd
-      REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY: /data
-    dns: 172.25.0.10
-    volumes:
-      - ./data/local-registry/data:/data
-      - ./data/local-registry/auth:/auth
-    networks:
-      - gitea-net
+  #registry:
+  #  image: registry:2
+  #  restart: always
+  #  environment:
+  #    REGISTRY_AUTH: htpasswd
+  #    REGISTRY_AUTH_HTPASSWD_REALM: Registry-Realm
+  #    REGISTRY_AUTH_HTPASSWD_PATH: /auth/registry.passwd
+  #    REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY: /data
+  #  dns: 172.25.0.10
+  #  volumes:
+  #    - ./data/local-registry/data:/data
+  #    - ./data/local-registry/auth:/auth
+  #  networks:
+  #    - gitea-net
   # A service that will periodically check for new images versions in the local private docker registry and deploy them if needed
   watchtower:
     image: containrrr/watchtower
