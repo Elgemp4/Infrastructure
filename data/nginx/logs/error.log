@@ -918,3 +918,2021 @@
 2025/07/17 15:44:50 [notice] 1#1: start worker process 25
 2025/07/17 15:44:50 [notice] 1#1: start worker process 26
 2025/07/17 15:44:50 [notice] 1#1: start worker process 27
+2025/07/17 15:52:32 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/07/17 15:52:32 [notice] 20#20: gracefully shutting down
+2025/07/17 15:52:32 [notice] 21#21: gracefully shutting down
+2025/07/17 15:52:32 [notice] 22#22: gracefully shutting down
+2025/07/17 15:52:32 [notice] 23#23: gracefully shutting down
+2025/07/17 15:52:32 [notice] 24#24: gracefully shutting down
+2025/07/17 15:52:32 [notice] 20#20: exiting
+2025/07/17 15:52:32 [notice] 23#23: exiting
+2025/07/17 15:52:32 [notice] 21#21: exiting
+2025/07/17 15:52:32 [notice] 24#24: exiting
+2025/07/17 15:52:32 [notice] 22#22: exiting
+2025/07/17 15:52:32 [notice] 25#25: gracefully shutting down
+2025/07/17 15:52:32 [notice] 25#25: exiting
+2025/07/17 15:52:32 [notice] 26#26: gracefully shutting down
+2025/07/17 15:52:32 [notice] 27#27: gracefully shutting down
+2025/07/17 15:52:32 [notice] 27#27: exiting
+2025/07/17 15:52:32 [notice] 23#23: exit
+2025/07/17 15:52:32 [notice] 22#22: exit
+2025/07/17 15:52:32 [notice] 20#20: exit
+2025/07/17 15:52:32 [notice] 24#24: exit
+2025/07/17 15:52:32 [notice] 27#27: exit
+2025/07/17 15:52:32 [notice] 21#21: exit
+2025/07/17 15:52:32 [notice] 25#25: exit
+2025/07/17 15:52:32 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2025/07/17 15:52:32 [notice] 1#1: worker process 25 exited with code 0
+2025/07/17 15:52:32 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/17 15:52:32 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/07/17 15:52:32 [notice] 1#1: worker process 24 exited with code 0
+2025/07/17 15:52:32 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/17 15:52:32 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/07/17 15:52:32 [notice] 1#1: worker process 21 exited with code 0
+2025/07/17 15:52:32 [notice] 1#1: worker process 27 exited with code 0
+2025/07/17 15:52:32 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/17 15:52:32 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2025/07/17 15:52:32 [notice] 1#1: worker process 20 exited with code 0
+2025/07/17 15:52:32 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/17 15:52:32 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/07/17 15:52:32 [notice] 1#1: worker process 22 exited with code 0
+2025/07/17 15:52:32 [notice] 1#1: worker process 23 exited with code 0
+2025/07/17 15:52:32 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/17 15:52:32 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2025/07/17 15:52:39 [notice] 26#26: exiting
+2025/07/17 15:52:39 [notice] 26#26: exit
+2025/07/17 15:52:39 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2025/07/17 15:52:39 [notice] 1#1: worker process 26 exited with code 0
+2025/07/17 15:52:39 [notice] 1#1: exit
+2025/07/17 21:44:01 [notice] 1#1: using the "epoll" event method
+2025/07/17 21:44:01 [notice] 1#1: nginx/1.29.0
+2025/07/17 21:44:01 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/07/17 21:44:01 [notice] 1#1: OS: Linux 6.15.6-arch1-1
+2025/07/17 21:44:01 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2025/07/17 21:44:01 [notice] 1#1: start worker processes
+2025/07/17 21:44:01 [notice] 1#1: start worker process 20
+2025/07/17 21:44:01 [notice] 1#1: start worker process 21
+2025/07/17 21:44:01 [notice] 1#1: start worker process 22
+2025/07/17 21:44:01 [notice] 1#1: start worker process 23
+2025/07/17 21:44:01 [notice] 1#1: start worker process 24
+2025/07/17 21:44:01 [notice] 1#1: start worker process 25
+2025/07/17 21:44:01 [notice] 1#1: start worker process 26
+2025/07/17 21:44:01 [notice] 1#1: start worker process 27
+2025/07/18 06:17:50 [error] 20#20: *226 open() "/etc/nginx/html/locales/en-US/translation.json" failed (2: No such file or directory), client: 127.0.0.1, server: registry.startech.be, request: "GET /locales/en-US/translation.json HTTP/1.1", host: "registry.startech.be", referrer: "https://registry.startech.be/portainer/"
+2025/07/18 06:17:50 [error] 20#20: *226 open() "/etc/nginx/html/locales/en/translation.json" failed (2: No such file or directory), client: 127.0.0.1, server: registry.startech.be, request: "GET /locales/en/translation.json HTTP/1.1", host: "registry.startech.be", referrer: "https://registry.startech.be/portainer/"
+2025/07/18 06:22:46 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/07/18 06:22:46 [notice] 20#20: gracefully shutting down
+2025/07/18 06:22:46 [notice] 24#24: gracefully shutting down
+2025/07/18 06:22:46 [notice] 26#26: gracefully shutting down
+2025/07/18 06:22:46 [notice] 25#25: gracefully shutting down
+2025/07/18 06:22:46 [notice] 21#21: gracefully shutting down
+2025/07/18 06:22:46 [notice] 24#24: exiting
+2025/07/18 06:22:46 [notice] 26#26: exiting
+2025/07/18 06:22:46 [notice] 25#25: exiting
+2025/07/18 06:22:46 [notice] 21#21: exiting
+2025/07/18 06:22:46 [notice] 23#23: gracefully shutting down
+2025/07/18 06:22:46 [notice] 23#23: exiting
+2025/07/18 06:22:46 [notice] 20#20: exiting
+2025/07/18 06:22:46 [notice] 22#22: gracefully shutting down
+2025/07/18 06:22:46 [notice] 22#22: exiting
+2025/07/18 06:22:46 [notice] 27#27: gracefully shutting down
+2025/07/18 06:22:46 [notice] 27#27: exiting
+2025/07/18 06:22:46 [notice] 25#25: exit
+2025/07/18 06:22:46 [notice] 24#24: exit
+2025/07/18 06:22:46 [notice] 20#20: exit
+2025/07/18 06:22:46 [notice] 26#26: exit
+2025/07/18 06:22:46 [notice] 21#21: exit
+2025/07/18 06:22:46 [notice] 23#23: exit
+2025/07/18 06:22:46 [notice] 22#22: exit
+2025/07/18 06:22:46 [notice] 27#27: exit
+2025/07/18 06:22:46 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/07/18 06:22:46 [notice] 1#1: worker process 24 exited with code 0
+2025/07/18 06:22:46 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:22:46 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2025/07/18 06:22:46 [notice] 1#1: worker process 22 exited with code 0
+2025/07/18 06:22:46 [notice] 1#1: worker process 26 exited with code 0
+2025/07/18 06:22:46 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:22:46 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/07/18 06:22:46 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2025/07/18 06:22:46 [notice] 1#1: worker process 20 exited with code 0
+2025/07/18 06:22:46 [notice] 1#1: worker process 25 exited with code 0
+2025/07/18 06:22:46 [notice] 1#1: worker process 27 exited with code 0
+2025/07/18 06:22:46 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:22:46 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2025/07/18 06:22:46 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2025/07/18 06:22:46 [notice] 1#1: worker process 23 exited with code 0
+2025/07/18 06:22:46 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/07/18 06:22:46 [notice] 1#1: worker process 21 exited with code 0
+2025/07/18 06:22:46 [notice] 1#1: exit
+2025/07/18 06:23:52 [notice] 1#1: using the "epoll" event method
+2025/07/18 06:23:52 [notice] 1#1: nginx/1.29.0
+2025/07/18 06:23:52 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/07/18 06:23:52 [notice] 1#1: OS: Linux 6.15.6-arch1-1
+2025/07/18 06:23:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2025/07/18 06:23:52 [notice] 1#1: start worker processes
+2025/07/18 06:23:52 [notice] 1#1: start worker process 20
+2025/07/18 06:23:52 [notice] 1#1: start worker process 21
+2025/07/18 06:23:52 [notice] 1#1: start worker process 22
+2025/07/18 06:23:52 [notice] 1#1: start worker process 23
+2025/07/18 06:23:52 [notice] 1#1: start worker process 24
+2025/07/18 06:23:52 [notice] 1#1: start worker process 25
+2025/07/18 06:23:52 [notice] 1#1: start worker process 26
+2025/07/18 06:23:52 [notice] 1#1: start worker process 27
+2025/07/18 06:23:53 [error] 21#21: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Admin/module-a/actions/runs/3/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/3/jobs/0", host: "gitea.startech.be"
+2025/07/18 06:23:53 [error] 21#21: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Admin/module-a/actions/runs/3/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/3/jobs/0", host: "gitea.startech.be"
+2025/07/18 06:23:54 [error] 21#21: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Admin/module-a/actions/runs/3/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/3/jobs/0", host: "gitea.startech.be"
+2025/07/18 06:23:54 [error] 21#21: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Admin/module-a/actions/runs/3/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/3/jobs/0", host: "gitea.startech.be"
+2025/07/18 06:23:55 [error] 21#21: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Admin/module-a/actions/runs/3/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/3/jobs/0", host: "gitea.startech.be"
+2025/07/18 06:23:55 [error] 23#23: *5 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Admin/module-a/actions/runs/3/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/3/jobs/0", host: "gitea.startech.be"
+2025/07/18 06:24:06 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/07/18 06:24:06 [notice] 21#21: gracefully shutting down
+2025/07/18 06:24:06 [notice] 22#22: gracefully shutting down
+2025/07/18 06:24:06 [notice] 22#22: exiting
+2025/07/18 06:24:06 [notice] 20#20: gracefully shutting down
+2025/07/18 06:24:06 [notice] 21#21: exiting
+2025/07/18 06:24:06 [notice] 25#25: gracefully shutting down
+2025/07/18 06:24:06 [notice] 20#20: exiting
+2025/07/18 06:24:06 [notice] 25#25: exiting
+2025/07/18 06:24:06 [notice] 24#24: gracefully shutting down
+2025/07/18 06:24:06 [notice] 24#24: exiting
+2025/07/18 06:24:06 [notice] 26#26: gracefully shutting down
+2025/07/18 06:24:06 [notice] 26#26: exiting
+2025/07/18 06:24:06 [notice] 27#27: gracefully shutting down
+2025/07/18 06:24:06 [notice] 27#27: exiting
+2025/07/18 06:24:06 [notice] 21#21: exit
+2025/07/18 06:24:06 [notice] 20#20: exit
+2025/07/18 06:24:06 [notice] 23#23: gracefully shutting down
+2025/07/18 06:24:06 [notice] 23#23: exiting
+2025/07/18 06:24:06 [notice] 22#22: exit
+2025/07/18 06:24:06 [notice] 26#26: exit
+2025/07/18 06:24:06 [notice] 27#27: exit
+2025/07/18 06:24:06 [notice] 25#25: exit
+2025/07/18 06:24:06 [notice] 24#24: exit
+2025/07/18 06:24:06 [notice] 23#23: exit
+2025/07/18 06:24:06 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2025/07/18 06:24:06 [notice] 1#1: worker process 26 exited with code 0
+2025/07/18 06:24:06 [notice] 1#1: worker process 27 exited with code 0
+2025/07/18 06:24:06 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:24:06 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2025/07/18 06:24:06 [notice] 1#1: worker process 20 exited with code 0
+2025/07/18 06:24:06 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:24:06 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/07/18 06:24:06 [notice] 1#1: worker process 21 exited with code 0
+2025/07/18 06:24:06 [notice] 1#1: worker process 23 exited with code 0
+2025/07/18 06:24:06 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:24:06 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/07/18 06:24:06 [notice] 1#1: worker process 22 exited with code 0
+2025/07/18 06:24:06 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:24:06 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/07/18 06:24:06 [notice] 1#1: worker process 24 exited with code 0
+2025/07/18 06:24:06 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:24:06 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2025/07/18 06:24:06 [notice] 1#1: worker process 25 exited with code 0
+2025/07/18 06:24:06 [notice] 1#1: exit
+2025/07/18 06:25:06 [notice] 1#1: using the "epoll" event method
+2025/07/18 06:25:06 [notice] 1#1: nginx/1.29.0
+2025/07/18 06:25:06 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/07/18 06:25:06 [notice] 1#1: OS: Linux 6.15.6-arch1-1
+2025/07/18 06:25:06 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2025/07/18 06:25:06 [notice] 1#1: start worker processes
+2025/07/18 06:25:06 [notice] 1#1: start worker process 20
+2025/07/18 06:25:06 [notice] 1#1: start worker process 21
+2025/07/18 06:25:06 [notice] 1#1: start worker process 22
+2025/07/18 06:25:06 [notice] 1#1: start worker process 23
+2025/07/18 06:25:06 [notice] 1#1: start worker process 24
+2025/07/18 06:25:06 [notice] 1#1: start worker process 25
+2025/07/18 06:25:06 [notice] 1#1: start worker process 26
+2025/07/18 06:25:06 [notice] 1#1: start worker process 27
+2025/07/18 06:25:06 [error] 20#20: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Admin/module-a/actions/runs/3/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/3/jobs/0", host: "gitea.startech.be"
+2025/07/18 06:25:06 [error] 20#20: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Admin/module-a/actions/runs/3/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/3/jobs/0", host: "gitea.startech.be"
+2025/07/18 06:25:07 [error] 20#20: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Admin/module-a/actions/runs/3/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/3/jobs/0", host: "gitea.startech.be"
+2025/07/18 06:25:07 [error] 20#20: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Admin/module-a/actions/runs/3/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/3/jobs/0", host: "gitea.startech.be"
+2025/07/18 06:25:08 [error] 20#20: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Admin/module-a/actions/runs/3/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/3/jobs/0", host: "gitea.startech.be"
+2025/07/18 06:25:08 [error] 20#20: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Admin/module-a/actions/runs/3/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/3/jobs/0", host: "gitea.startech.be"
+2025/07/18 06:25:09 [error] 20#20: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Admin/module-a/actions/runs/3/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/3/jobs/0", host: "gitea.startech.be"
+2025/07/18 06:29:20 [error] 27#27: *375 open() "/etc/nginx/html/locales/en-US/translation.json" failed (2: No such file or directory), client: 127.0.0.1, server: registry.startech.be, request: "GET /locales/en-US/translation.json HTTP/1.1", host: "registry.startech.be", referrer: "https://registry.startech.be/portainer/"
+2025/07/18 06:29:20 [error] 25#25: *373 open() "/etc/nginx/html/locales/en/translation.json" failed (2: No such file or directory), client: 127.0.0.1, server: registry.startech.be, request: "GET /locales/en/translation.json HTTP/1.1", host: "registry.startech.be", referrer: "https://registry.startech.be/portainer/"
+2025/07/18 06:29:22 [error] 25#25: *373 open() "/etc/nginx/html/locales/en-US/translation.json" failed (2: No such file or directory), client: 127.0.0.1, server: registry.startech.be, request: "GET /locales/en-US/translation.json HTTP/1.1", host: "registry.startech.be", referrer: "https://registry.startech.be/portainer/"
+2025/07/18 06:29:22 [error] 23#23: *371 open() "/etc/nginx/html/locales/en/translation.json" failed (2: No such file or directory), client: 127.0.0.1, server: registry.startech.be, request: "GET /locales/en/translation.json HTTP/1.1", host: "registry.startech.be", referrer: "https://registry.startech.be/portainer/"
+2025/07/18 06:30:32 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/07/18 06:30:32 [notice] 20#20: gracefully shutting down
+2025/07/18 06:30:32 [notice] 22#22: gracefully shutting down
+2025/07/18 06:30:32 [notice] 25#25: gracefully shutting down
+2025/07/18 06:30:32 [notice] 20#20: exiting
+2025/07/18 06:30:32 [notice] 25#25: exiting
+2025/07/18 06:30:32 [notice] 21#21: gracefully shutting down
+2025/07/18 06:30:32 [notice] 21#21: exiting
+2025/07/18 06:30:32 [notice] 22#22: exiting
+2025/07/18 06:30:32 [notice] 20#20: exit
+2025/07/18 06:30:32 [notice] 25#25: exit
+2025/07/18 06:30:32 [notice] 22#22: exit
+2025/07/18 06:30:32 [notice] 21#21: exit
+2025/07/18 06:30:32 [notice] 23#23: gracefully shutting down
+2025/07/18 06:30:32 [notice] 24#24: gracefully shutting down
+2025/07/18 06:30:32 [notice] 23#23: exiting
+2025/07/18 06:30:32 [notice] 24#24: exiting
+2025/07/18 06:30:32 [notice] 26#26: gracefully shutting down
+2025/07/18 06:30:32 [notice] 26#26: exiting
+2025/07/18 06:30:32 [notice] 23#23: exit
+2025/07/18 06:30:32 [notice] 24#24: exit
+2025/07/18 06:30:32 [notice] 26#26: exit
+2025/07/18 06:30:32 [notice] 27#27: gracefully shutting down
+2025/07/18 06:30:32 [notice] 27#27: exiting
+2025/07/18 06:30:32 [notice] 27#27: exit
+2025/07/18 06:30:32 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2025/07/18 06:30:32 [notice] 1#1: worker process 25 exited with code 0
+2025/07/18 06:30:32 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:30:32 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/07/18 06:30:32 [notice] 1#1: worker process 22 exited with code 0
+2025/07/18 06:30:32 [notice] 1#1: worker process 23 exited with code 0
+2025/07/18 06:30:32 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:30:32 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2025/07/18 06:30:32 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2025/07/18 06:30:32 [notice] 1#1: worker process 27 exited with code 0
+2025/07/18 06:30:32 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:30:32 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2025/07/18 06:30:32 [notice] 1#1: worker process 26 exited with code 0
+2025/07/18 06:30:32 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:30:32 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/07/18 06:30:32 [notice] 1#1: worker process 21 exited with code 0
+2025/07/18 06:30:32 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:30:32 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2025/07/18 06:30:32 [notice] 1#1: worker process 20 exited with code 0
+2025/07/18 06:30:32 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/07/18 06:30:32 [notice] 1#1: worker process 24 exited with code 0
+2025/07/18 06:30:32 [notice] 1#1: exit
+2025/07/18 06:30:49 [notice] 1#1: using the "epoll" event method
+2025/07/18 06:30:49 [notice] 1#1: nginx/1.29.0
+2025/07/18 06:30:49 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/07/18 06:30:49 [notice] 1#1: OS: Linux 6.15.6-arch1-1
+2025/07/18 06:30:49 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2025/07/18 06:30:49 [notice] 1#1: start worker processes
+2025/07/18 06:30:49 [notice] 1#1: start worker process 20
+2025/07/18 06:30:49 [notice] 1#1: start worker process 21
+2025/07/18 06:30:49 [notice] 1#1: start worker process 22
+2025/07/18 06:30:49 [notice] 1#1: start worker process 23
+2025/07/18 06:30:49 [notice] 1#1: start worker process 24
+2025/07/18 06:30:49 [notice] 1#1: start worker process 25
+2025/07/18 06:30:49 [notice] 1#1: start worker process 26
+2025/07/18 06:30:49 [notice] 1#1: start worker process 27
+2025/07/18 06:30:49 [error] 20#20: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Admin/module-a/actions/runs/3/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/3/jobs/0", host: "gitea.startech.be"
+2025/07/18 06:30:50 [error] 20#20: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Admin/module-a/actions/runs/3/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/3/jobs/0", host: "gitea.startech.be"
+2025/07/18 06:30:51 [error] 20#20: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Admin/module-a/actions/runs/3/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/3/jobs/0", host: "gitea.startech.be"
+2025/07/18 06:30:57 [error] 22#22: *10 open() "/etc/nginx/html/locales/en-US/translation.json" failed (2: No such file or directory), client: 127.0.0.1, server: registry.startech.be, request: "GET /locales/en-US/translation.json HTTP/1.1", host: "registry.startech.be", referrer: "https://registry.startech.be/portainer/"
+2025/07/18 06:30:57 [error] 22#22: *10 open() "/etc/nginx/html/locales/en/translation.json" failed (2: No such file or directory), client: 127.0.0.1, server: registry.startech.be, request: "GET /locales/en/translation.json HTTP/1.1", host: "registry.startech.be", referrer: "https://registry.startech.be/portainer/"
+2025/07/18 06:34:05 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/07/18 06:34:05 [notice] 20#20: gracefully shutting down
+2025/07/18 06:34:05 [notice] 20#20: exiting
+2025/07/18 06:34:05 [notice] 20#20: exit
+2025/07/18 06:34:05 [notice] 21#21: gracefully shutting down
+2025/07/18 06:34:05 [notice] 26#26: gracefully shutting down
+2025/07/18 06:34:05 [notice] 26#26: exiting
+2025/07/18 06:34:05 [notice] 22#22: gracefully shutting down
+2025/07/18 06:34:05 [notice] 22#22: exiting
+2025/07/18 06:34:05 [notice] 27#27: gracefully shutting down
+2025/07/18 06:34:05 [notice] 27#27: exiting
+2025/07/18 06:34:05 [notice] 26#26: exit
+2025/07/18 06:34:05 [notice] 21#21: exiting
+2025/07/18 06:34:05 [notice] 21#21: exit
+2025/07/18 06:34:05 [notice] 27#27: exit
+2025/07/18 06:34:05 [notice] 23#23: gracefully shutting down
+2025/07/18 06:34:05 [notice] 23#23: exiting
+2025/07/18 06:34:05 [notice] 22#22: exit
+2025/07/18 06:34:05 [notice] 24#24: gracefully shutting down
+2025/07/18 06:34:05 [notice] 24#24: exiting
+2025/07/18 06:34:05 [notice] 23#23: exit
+2025/07/18 06:34:05 [notice] 24#24: exit
+2025/07/18 06:34:05 [notice] 25#25: gracefully shutting down
+2025/07/18 06:34:05 [notice] 25#25: exiting
+2025/07/18 06:34:05 [notice] 25#25: exit
+2025/07/18 06:34:05 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2025/07/18 06:34:05 [notice] 1#1: worker process 26 exited with code 0
+2025/07/18 06:34:05 [notice] 1#1: worker process 20 exited with code 0
+2025/07/18 06:34:05 [notice] 1#1: worker process 21 exited with code 0
+2025/07/18 06:34:05 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:34:05 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/07/18 06:34:05 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/07/18 06:34:05 [notice] 1#1: worker process 22 exited with code 0
+2025/07/18 06:34:05 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:34:05 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2025/07/18 06:34:05 [notice] 1#1: worker process 25 exited with code 0
+2025/07/18 06:34:05 [notice] 1#1: worker process 24 exited with code 0
+2025/07/18 06:34:05 [notice] 1#1: worker process 27 exited with code 0
+2025/07/18 06:34:05 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:34:05 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/07/18 06:34:06 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2025/07/18 06:34:06 [notice] 1#1: worker process 23 exited with code 0
+2025/07/18 06:34:06 [notice] 1#1: exit
+2025/07/18 06:34:10 [notice] 1#1: using the "epoll" event method
+2025/07/18 06:34:10 [notice] 1#1: nginx/1.29.0
+2025/07/18 06:34:10 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/07/18 06:34:10 [notice] 1#1: OS: Linux 6.15.6-arch1-1
+2025/07/18 06:34:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2025/07/18 06:34:10 [notice] 1#1: start worker processes
+2025/07/18 06:34:10 [notice] 1#1: start worker process 20
+2025/07/18 06:34:10 [notice] 1#1: start worker process 21
+2025/07/18 06:34:10 [notice] 1#1: start worker process 22
+2025/07/18 06:34:10 [notice] 1#1: start worker process 23
+2025/07/18 06:34:10 [notice] 1#1: start worker process 24
+2025/07/18 06:34:10 [notice] 1#1: start worker process 25
+2025/07/18 06:34:10 [notice] 1#1: start worker process 26
+2025/07/18 06:34:10 [notice] 1#1: start worker process 27
+2025/07/18 06:34:10 [error] 22#22: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Admin/module-a/actions/runs/3/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/3/jobs/0", host: "gitea.startech.be"
+2025/07/18 06:34:11 [error] 22#22: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Admin/module-a/actions/runs/3/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/3/jobs/0", host: "gitea.startech.be"
+2025/07/18 06:34:12 [error] 22#22: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Admin/module-a/actions/runs/3/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/3/jobs/0", host: "gitea.startech.be"
+2025/07/18 06:34:13 [error] 22#22: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Admin/module-a/actions/runs/3/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/3/jobs/0", host: "gitea.startech.be"
+2025/07/18 06:34:38 [error] 23#23: *31 open() "/etc/nginx/html/locales/en-US/translation.json" failed (2: No such file or directory), client: 127.0.0.1, server: registry.startech.be, request: "GET /locales/en-US/translation.json HTTP/1.1", host: "registry.startech.be", referrer: "https://registry.startech.be/portainer/"
+2025/07/18 06:34:38 [error] 23#23: *31 open() "/etc/nginx/html/locales/en/translation.json" failed (2: No such file or directory), client: 127.0.0.1, server: registry.startech.be, request: "GET /locales/en/translation.json HTTP/1.1", host: "registry.startech.be", referrer: "https://registry.startech.be/portainer/"
+2025/07/18 06:38:25 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/07/18 06:38:25 [notice] 20#20: gracefully shutting down
+2025/07/18 06:38:25 [notice] 21#21: gracefully shutting down
+2025/07/18 06:38:25 [notice] 23#23: gracefully shutting down
+2025/07/18 06:38:25 [notice] 24#24: gracefully shutting down
+2025/07/18 06:38:25 [notice] 23#23: exiting
+2025/07/18 06:38:25 [notice] 24#24: exiting
+2025/07/18 06:38:25 [notice] 22#22: gracefully shutting down
+2025/07/18 06:38:25 [notice] 20#20: exiting
+2025/07/18 06:38:25 [notice] 27#27: gracefully shutting down
+2025/07/18 06:38:25 [notice] 27#27: exiting
+2025/07/18 06:38:25 [notice] 22#22: exiting
+2025/07/18 06:38:25 [notice] 25#25: gracefully shutting down
+2025/07/18 06:38:25 [notice] 24#24: exit
+2025/07/18 06:38:25 [notice] 21#21: exiting
+2025/07/18 06:38:25 [notice] 23#23: exit
+2025/07/18 06:38:25 [notice] 25#25: exiting
+2025/07/18 06:38:25 [notice] 20#20: exit
+2025/07/18 06:38:25 [notice] 27#27: exit
+2025/07/18 06:38:25 [notice] 22#22: exit
+2025/07/18 06:38:25 [notice] 21#21: exit
+2025/07/18 06:38:25 [notice] 26#26: gracefully shutting down
+2025/07/18 06:38:25 [notice] 25#25: exit
+2025/07/18 06:38:25 [notice] 26#26: exiting
+2025/07/18 06:38:25 [notice] 26#26: exit
+2025/07/18 06:38:25 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/07/18 06:38:25 [notice] 1#1: worker process 21 exited with code 0
+2025/07/18 06:38:25 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:38:25 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2025/07/18 06:38:25 [notice] 1#1: worker process 26 exited with code 0
+2025/07/18 06:38:25 [notice] 1#1: worker process 27 exited with code 0
+2025/07/18 06:38:25 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:38:25 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2025/07/18 06:38:25 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/07/18 06:38:25 [notice] 1#1: worker process 20 exited with code 0
+2025/07/18 06:38:25 [notice] 1#1: worker process 23 exited with code 0
+2025/07/18 06:38:25 [notice] 1#1: worker process 24 exited with code 0
+2025/07/18 06:38:25 [notice] 1#1: worker process 25 exited with code 0
+2025/07/18 06:38:25 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:38:25 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2025/07/18 06:38:25 [notice] 1#1: worker process 22 exited with code 0
+2025/07/18 06:38:25 [notice] 1#1: exit
+2025/07/18 06:38:40 [notice] 1#1: using the "epoll" event method
+2025/07/18 06:38:40 [notice] 1#1: nginx/1.29.0
+2025/07/18 06:38:40 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/07/18 06:38:40 [notice] 1#1: OS: Linux 6.15.6-arch1-1
+2025/07/18 06:38:40 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2025/07/18 06:38:40 [notice] 1#1: start worker processes
+2025/07/18 06:38:40 [notice] 1#1: start worker process 20
+2025/07/18 06:38:40 [notice] 1#1: start worker process 21
+2025/07/18 06:38:40 [notice] 1#1: start worker process 22
+2025/07/18 06:38:40 [notice] 1#1: start worker process 23
+2025/07/18 06:38:40 [notice] 1#1: start worker process 24
+2025/07/18 06:38:40 [notice] 1#1: start worker process 25
+2025/07/18 06:38:40 [notice] 1#1: start worker process 26
+2025/07/18 06:38:40 [notice] 1#1: start worker process 27
+2025/07/18 06:38:41 [error] 21#21: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Admin/module-a/actions/runs/3/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/3/jobs/0", host: "gitea.startech.be"
+2025/07/18 06:38:42 [error] 21#21: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Admin/module-a/actions/runs/3/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/3/jobs/0", host: "gitea.startech.be"
+2025/07/18 06:38:42 [error] 21#21: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "GET /-/admin/system_status HTTP/1.1", upstream: "http://127.0.0.1:3000/-/admin/system_status", host: "gitea.startech.be"
+2025/07/18 06:38:43 [error] 21#21: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Admin/module-a/actions/runs/3/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/3/jobs/0", host: "gitea.startech.be"
+2025/07/18 06:40:28 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/07/18 06:40:28 [notice] 23#23: gracefully shutting down
+2025/07/18 06:40:28 [notice] 24#24: gracefully shutting down
+2025/07/18 06:40:28 [notice] 25#25: gracefully shutting down
+2025/07/18 06:40:28 [notice] 25#25: exiting
+2025/07/18 06:40:28 [notice] 27#27: gracefully shutting down
+2025/07/18 06:40:28 [notice] 24#24: exiting
+2025/07/18 06:40:28 [notice] 27#27: exiting
+2025/07/18 06:40:28 [notice] 20#20: gracefully shutting down
+2025/07/18 06:40:28 [notice] 20#20: exiting
+2025/07/18 06:40:28 [notice] 21#21: gracefully shutting down
+2025/07/18 06:40:28 [notice] 21#21: exiting
+2025/07/18 06:40:28 [notice] 20#20: exit
+2025/07/18 06:40:28 [notice] 23#23: exiting
+2025/07/18 06:40:28 [notice] 27#27: exit
+2025/07/18 06:40:28 [notice] 22#22: gracefully shutting down
+2025/07/18 06:40:28 [notice] 22#22: exiting
+2025/07/18 06:40:28 [notice] 23#23: exit
+2025/07/18 06:40:28 [notice] 26#26: gracefully shutting down
+2025/07/18 06:40:28 [notice] 26#26: exiting
+2025/07/18 06:40:28 [notice] 24#24: exit
+2025/07/18 06:40:28 [notice] 22#22: exit
+2025/07/18 06:40:28 [notice] 21#21: exit
+2025/07/18 06:40:28 [notice] 26#26: exit
+2025/07/18 06:40:28 [notice] 25#25: exit
+2025/07/18 06:40:28 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2025/07/18 06:40:28 [notice] 1#1: worker process 27 exited with code 0
+2025/07/18 06:40:28 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:40:28 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2025/07/18 06:40:28 [notice] 1#1: worker process 20 exited with code 0
+2025/07/18 06:40:28 [notice] 1#1: worker process 23 exited with code 0
+2025/07/18 06:40:28 [notice] 1#1: worker process 24 exited with code 0
+2025/07/18 06:40:28 [notice] 1#1: worker process 25 exited with code 0
+2025/07/18 06:40:28 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:40:28 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/07/18 06:40:28 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2025/07/18 06:40:28 [notice] 1#1: worker process 26 exited with code 0
+2025/07/18 06:40:28 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:40:28 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/07/18 06:40:28 [notice] 1#1: worker process 22 exited with code 0
+2025/07/18 06:40:28 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:40:28 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/07/18 06:40:28 [notice] 1#1: worker process 21 exited with code 0
+2025/07/18 06:40:28 [notice] 1#1: exit
+2025/07/18 06:40:38 [notice] 1#1: using the "epoll" event method
+2025/07/18 06:40:38 [notice] 1#1: nginx/1.29.0
+2025/07/18 06:40:38 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/07/18 06:40:38 [notice] 1#1: OS: Linux 6.15.6-arch1-1
+2025/07/18 06:40:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2025/07/18 06:40:38 [notice] 1#1: start worker processes
+2025/07/18 06:40:38 [notice] 1#1: start worker process 20
+2025/07/18 06:40:38 [notice] 1#1: start worker process 21
+2025/07/18 06:40:38 [notice] 1#1: start worker process 22
+2025/07/18 06:40:38 [notice] 1#1: start worker process 23
+2025/07/18 06:40:38 [notice] 1#1: start worker process 24
+2025/07/18 06:40:38 [notice] 1#1: start worker process 25
+2025/07/18 06:40:38 [notice] 1#1: start worker process 26
+2025/07/18 06:40:38 [notice] 1#1: start worker process 27
+2025/07/18 06:40:39 [error] 20#20: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Admin/module-a/actions/runs/3/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/3/jobs/0", host: "gitea.startech.be"
+2025/07/18 06:40:40 [error] 20#20: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Admin/module-a/actions/runs/3/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/3/jobs/0", host: "gitea.startech.be"
+2025/07/18 06:40:41 [error] 20#20: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Admin/module-a/actions/runs/3/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/3/jobs/0", host: "gitea.startech.be"
+2025/07/18 06:40:55 [error] 21#21: *18 open() "/etc/nginx/html/locales/en-US/translation.json" failed (2: No such file or directory), client: 127.0.0.1, server: registry.startech.be, request: "GET /locales/en-US/translation.json HTTP/1.1", host: "registry.startech.be", referrer: "https://registry.startech.be/portainer/"
+2025/07/18 06:40:55 [error] 27#27: *22 open() "/etc/nginx/html/locales/en/translation.json" failed (2: No such file or directory), client: 127.0.0.1, server: registry.startech.be, request: "GET /locales/en/translation.json HTTP/1.1", host: "registry.startech.be", referrer: "https://registry.startech.be/portainer/"
+2025/07/18 06:42:29 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/07/18 06:42:29 [notice] 22#22: gracefully shutting down
+2025/07/18 06:42:29 [notice] 20#20: gracefully shutting down
+2025/07/18 06:42:29 [notice] 25#25: gracefully shutting down
+2025/07/18 06:42:29 [notice] 23#23: gracefully shutting down
+2025/07/18 06:42:29 [notice] 23#23: exiting
+2025/07/18 06:42:29 [notice] 21#21: gracefully shutting down
+2025/07/18 06:42:29 [notice] 25#25: exiting
+2025/07/18 06:42:29 [notice] 23#23: exit
+2025/07/18 06:42:29 [notice] 21#21: exiting
+2025/07/18 06:42:29 [notice] 25#25: exit
+2025/07/18 06:42:29 [notice] 22#22: exiting
+2025/07/18 06:42:29 [notice] 27#27: gracefully shutting down
+2025/07/18 06:42:29 [notice] 20#20: exiting
+2025/07/18 06:42:29 [notice] 27#27: exiting
+2025/07/18 06:42:29 [notice] 20#20: exit
+2025/07/18 06:42:29 [notice] 27#27: exit
+2025/07/18 06:42:29 [notice] 22#22: exit
+2025/07/18 06:42:29 [notice] 21#21: exit
+2025/07/18 06:42:29 [notice] 24#24: gracefully shutting down
+2025/07/18 06:42:29 [notice] 24#24: exiting
+2025/07/18 06:42:29 [notice] 26#26: gracefully shutting down
+2025/07/18 06:42:29 [notice] 26#26: exiting
+2025/07/18 06:42:29 [notice] 24#24: exit
+2025/07/18 06:42:29 [notice] 26#26: exit
+2025/07/18 06:42:29 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2025/07/18 06:42:29 [notice] 1#1: worker process 25 exited with code 0
+2025/07/18 06:42:29 [notice] 1#1: worker process 26 exited with code 0
+2025/07/18 06:42:29 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:42:29 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2025/07/18 06:42:29 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2025/07/18 06:42:29 [notice] 1#1: worker process 27 exited with code 0
+2025/07/18 06:42:29 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:42:29 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2025/07/18 06:42:29 [notice] 1#1: worker process 23 exited with code 0
+2025/07/18 06:42:29 [notice] 1#1: worker process 22 exited with code 0
+2025/07/18 06:42:29 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:42:29 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/07/18 06:42:29 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/07/18 06:42:29 [notice] 1#1: worker process 24 exited with code 0
+2025/07/18 06:42:29 [notice] 1#1: worker process 21 exited with code 0
+2025/07/18 06:42:29 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:42:29 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/07/18 06:42:29 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2025/07/18 06:42:29 [notice] 1#1: worker process 20 exited with code 0
+2025/07/18 06:42:29 [notice] 1#1: exit
+2025/07/18 06:44:00 [notice] 1#1: using the "epoll" event method
+2025/07/18 06:44:00 [notice] 1#1: nginx/1.29.0
+2025/07/18 06:44:00 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/07/18 06:44:00 [notice] 1#1: OS: Linux 6.15.6-arch1-1
+2025/07/18 06:44:00 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2025/07/18 06:44:00 [notice] 1#1: start worker processes
+2025/07/18 06:44:00 [notice] 1#1: start worker process 20
+2025/07/18 06:44:00 [notice] 1#1: start worker process 21
+2025/07/18 06:44:00 [notice] 1#1: start worker process 22
+2025/07/18 06:44:00 [notice] 1#1: start worker process 23
+2025/07/18 06:44:00 [notice] 1#1: start worker process 24
+2025/07/18 06:44:00 [notice] 1#1: start worker process 25
+2025/07/18 06:44:00 [notice] 1#1: start worker process 26
+2025/07/18 06:44:00 [notice] 1#1: start worker process 27
+2025/07/18 06:44:01 [error] 20#20: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Admin/module-a/actions/runs/3/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/3/jobs/0", host: "gitea.startech.be"
+2025/07/18 06:44:02 [error] 20#20: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Admin/module-a/actions/runs/3/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/3/jobs/0", host: "gitea.startech.be"
+2025/07/18 06:44:03 [error] 20#20: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Admin/module-a/actions/runs/3/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/3/jobs/0", host: "gitea.startech.be"
+2025/07/18 06:44:04 [error] 20#20: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Admin/module-a/actions/runs/3/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/3/jobs/0", host: "gitea.startech.be"
+2025/07/18 06:44:09 [error] 22#22: *11 open() "/etc/nginx/html/locales/en-US/translation.json" failed (2: No such file or directory), client: 127.0.0.1, server: registry.startech.be, request: "GET /locales/en-US/translation.json HTTP/1.1", host: "registry.startech.be", referrer: "https://registry.startech.be/portainer/"
+2025/07/18 06:44:09 [error] 25#25: *14 open() "/etc/nginx/html/locales/en/translation.json" failed (2: No such file or directory), client: 127.0.0.1, server: registry.startech.be, request: "GET /locales/en/translation.json HTTP/1.1", host: "registry.startech.be", referrer: "https://registry.startech.be/portainer/"
+2025/07/18 06:45:38 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/07/18 06:45:38 [notice] 20#20: gracefully shutting down
+2025/07/18 06:45:38 [notice] 25#25: gracefully shutting down
+2025/07/18 06:45:38 [notice] 26#26: gracefully shutting down
+2025/07/18 06:45:38 [notice] 21#21: gracefully shutting down
+2025/07/18 06:45:38 [notice] 22#22: gracefully shutting down
+2025/07/18 06:45:38 [notice] 20#20: exiting
+2025/07/18 06:45:38 [notice] 25#25: exiting
+2025/07/18 06:45:38 [notice] 26#26: exiting
+2025/07/18 06:45:38 [notice] 22#22: exiting
+2025/07/18 06:45:38 [notice] 26#26: exit
+2025/07/18 06:45:38 [notice] 20#20: exit
+2025/07/18 06:45:38 [notice] 23#23: gracefully shutting down
+2025/07/18 06:45:38 [notice] 23#23: exiting
+2025/07/18 06:45:38 [notice] 22#22: exit
+2025/07/18 06:45:38 [notice] 24#24: gracefully shutting down
+2025/07/18 06:45:38 [notice] 24#24: exiting
+2025/07/18 06:45:38 [notice] 24#24: exit
+2025/07/18 06:45:38 [notice] 21#21: exiting
+2025/07/18 06:45:38 [notice] 27#27: gracefully shutting down
+2025/07/18 06:45:38 [notice] 27#27: exiting
+2025/07/18 06:45:38 [notice] 21#21: exit
+2025/07/18 06:45:38 [notice] 27#27: exit
+2025/07/18 06:45:38 [notice] 23#23: exit
+2025/07/18 06:45:38 [notice] 25#25: exit
+2025/07/18 06:45:38 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2025/07/18 06:45:38 [notice] 1#1: worker process 26 exited with code 0
+2025/07/18 06:45:38 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:45:38 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/07/18 06:45:38 [notice] 1#1: worker process 20 exited with code 0
+2025/07/18 06:45:38 [notice] 1#1: worker process 24 exited with code 0
+2025/07/18 06:45:38 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:45:38 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2025/07/18 06:45:38 [notice] 1#1: worker process 22 exited with code 0
+2025/07/18 06:45:38 [notice] 1#1: worker process 25 exited with code 0
+2025/07/18 06:45:38 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:45:38 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/07/18 06:45:38 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/07/18 06:45:38 [notice] 1#1: worker process 21 exited with code 0
+2025/07/18 06:45:38 [notice] 1#1: worker process 23 exited with code 0
+2025/07/18 06:45:38 [notice] 1#1: worker process 27 exited with code 0
+2025/07/18 06:45:38 [notice] 1#1: exit
+2025/07/18 06:45:42 [notice] 1#1: using the "epoll" event method
+2025/07/18 06:45:42 [notice] 1#1: nginx/1.29.0
+2025/07/18 06:45:42 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/07/18 06:45:42 [notice] 1#1: OS: Linux 6.15.6-arch1-1
+2025/07/18 06:45:42 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2025/07/18 06:45:42 [notice] 1#1: start worker processes
+2025/07/18 06:45:42 [notice] 1#1: start worker process 20
+2025/07/18 06:45:42 [notice] 1#1: start worker process 21
+2025/07/18 06:45:42 [notice] 1#1: start worker process 22
+2025/07/18 06:45:42 [notice] 1#1: start worker process 23
+2025/07/18 06:45:42 [notice] 1#1: start worker process 24
+2025/07/18 06:45:42 [notice] 1#1: start worker process 25
+2025/07/18 06:45:42 [notice] 1#1: start worker process 26
+2025/07/18 06:45:42 [notice] 1#1: start worker process 27
+2025/07/18 06:45:43 [error] 20#20: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Admin/module-a/actions/runs/3/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/3/jobs/0", host: "gitea.startech.be"
+2025/07/18 06:45:44 [error] 20#20: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Admin/module-a/actions/runs/3/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/3/jobs/0", host: "gitea.startech.be"
+2025/07/18 06:45:45 [error] 20#20: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Admin/module-a/actions/runs/3/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/3/jobs/0", host: "gitea.startech.be"
+2025/07/18 06:45:45 [error] 25#25: *9 open() "/etc/nginx/html/locales/en/translation.json" failed (2: No such file or directory), client: 127.0.0.1, server: registry.startech.be, request: "GET /locales/en/translation.json HTTP/1.1", host: "registry.startech.be", referrer: "https://registry.startech.be/portainer/"
+2025/07/18 06:45:45 [error] 23#23: *5 open() "/etc/nginx/html/locales/en-US/translation.json" failed (2: No such file or directory), client: 127.0.0.1, server: registry.startech.be, request: "GET /locales/en-US/translation.json HTTP/1.1", host: "registry.startech.be", referrer: "https://registry.startech.be/portainer/"
+2025/07/18 06:46:44 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/07/18 06:46:44 [notice] 20#20: gracefully shutting down
+2025/07/18 06:46:44 [notice] 21#21: gracefully shutting down
+2025/07/18 06:46:44 [notice] 20#20: exiting
+2025/07/18 06:46:44 [notice] 21#21: exiting
+2025/07/18 06:46:44 [notice] 23#23: gracefully shutting down
+2025/07/18 06:46:44 [notice] 26#26: gracefully shutting down
+2025/07/18 06:46:44 [notice] 26#26: exiting
+2025/07/18 06:46:44 [notice] 20#20: exit
+2025/07/18 06:46:44 [notice] 25#25: gracefully shutting down
+2025/07/18 06:46:44 [notice] 23#23: exiting
+2025/07/18 06:46:44 [notice] 25#25: exiting
+2025/07/18 06:46:44 [notice] 23#23: exit
+2025/07/18 06:46:44 [notice] 25#25: exit
+2025/07/18 06:46:44 [notice] 22#22: gracefully shutting down
+2025/07/18 06:46:44 [notice] 26#26: exit
+2025/07/18 06:46:44 [notice] 22#22: exiting
+2025/07/18 06:46:44 [notice] 22#22: exit
+2025/07/18 06:46:44 [notice] 24#24: gracefully shutting down
+2025/07/18 06:46:44 [notice] 24#24: exiting
+2025/07/18 06:46:44 [notice] 21#21: exit
+2025/07/18 06:46:44 [notice] 24#24: exit
+2025/07/18 06:46:44 [notice] 27#27: gracefully shutting down
+2025/07/18 06:46:44 [notice] 27#27: exiting
+2025/07/18 06:46:44 [notice] 27#27: exit
+2025/07/18 06:46:44 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/07/18 06:46:44 [notice] 1#1: worker process 21 exited with code 0
+2025/07/18 06:46:44 [notice] 1#1: worker process 22 exited with code 0
+2025/07/18 06:46:44 [notice] 1#1: worker process 23 exited with code 0
+2025/07/18 06:46:44 [notice] 1#1: worker process 24 exited with code 0
+2025/07/18 06:46:44 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:46:44 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/07/18 06:46:44 [notice] 1#1: worker process 20 exited with code 0
+2025/07/18 06:46:44 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:46:44 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2025/07/18 06:46:44 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2025/07/18 06:46:44 [notice] 1#1: worker process 25 exited with code 0
+2025/07/18 06:46:44 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:46:44 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2025/07/18 06:46:44 [notice] 1#1: worker process 26 exited with code 0
+2025/07/18 06:46:44 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:46:44 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2025/07/18 06:46:44 [notice] 1#1: worker process 27 exited with code 0
+2025/07/18 06:46:44 [notice] 1#1: exit
+2025/07/18 06:47:00 [notice] 1#1: using the "epoll" event method
+2025/07/18 06:47:00 [notice] 1#1: nginx/1.29.0
+2025/07/18 06:47:00 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/07/18 06:47:00 [notice] 1#1: OS: Linux 6.15.6-arch1-1
+2025/07/18 06:47:00 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2025/07/18 06:47:00 [notice] 1#1: start worker processes
+2025/07/18 06:47:00 [notice] 1#1: start worker process 20
+2025/07/18 06:47:00 [notice] 1#1: start worker process 21
+2025/07/18 06:47:00 [notice] 1#1: start worker process 22
+2025/07/18 06:47:00 [notice] 1#1: start worker process 23
+2025/07/18 06:47:00 [notice] 1#1: start worker process 24
+2025/07/18 06:47:00 [notice] 1#1: start worker process 25
+2025/07/18 06:47:00 [notice] 1#1: start worker process 26
+2025/07/18 06:47:00 [notice] 1#1: start worker process 27
+2025/07/18 06:47:00 [error] 21#21: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Admin/module-a/actions/runs/3/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/3/jobs/0", host: "gitea.startech.be"
+2025/07/18 06:47:01 [error] 20#20: *2 open() "/etc/nginx/html/locales/en-US/translation.json" failed (2: No such file or directory), client: 127.0.0.1, server: registry.startech.be, request: "GET /locales/en-US/translation.json HTTP/1.1", host: "registry.startech.be", referrer: "https://registry.startech.be/portainer/"
+2025/07/18 06:47:01 [error] 20#20: *2 open() "/etc/nginx/html/locales/en/translation.json" failed (2: No such file or directory), client: 127.0.0.1, server: registry.startech.be, request: "GET /locales/en/translation.json HTTP/1.1", host: "registry.startech.be", referrer: "https://registry.startech.be/portainer/"
+2025/07/18 06:47:01 [error] 21#21: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Admin/module-a/actions/runs/3/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/3/jobs/0", host: "gitea.startech.be"
+2025/07/18 06:47:02 [error] 21#21: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Admin/module-a/actions/runs/3/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/3/jobs/0", host: "gitea.startech.be"
+2025/07/18 06:47:51 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/07/18 06:47:51 [notice] 20#20: gracefully shutting down
+2025/07/18 06:47:51 [notice] 25#25: gracefully shutting down
+2025/07/18 06:47:51 [notice] 22#22: gracefully shutting down
+2025/07/18 06:47:51 [notice] 26#26: gracefully shutting down
+2025/07/18 06:47:51 [notice] 22#22: exiting
+2025/07/18 06:47:51 [notice] 20#20: exiting
+2025/07/18 06:47:51 [notice] 25#25: exiting
+2025/07/18 06:47:51 [notice] 27#27: gracefully shutting down
+2025/07/18 06:47:51 [notice] 23#23: gracefully shutting down
+2025/07/18 06:47:51 [notice] 27#27: exiting
+2025/07/18 06:47:51 [notice] 23#23: exiting
+2025/07/18 06:47:51 [notice] 25#25: exit
+2025/07/18 06:47:51 [notice] 20#20: exit
+2025/07/18 06:47:51 [notice] 23#23: exit
+2025/07/18 06:47:51 [notice] 21#21: gracefully shutting down
+2025/07/18 06:47:51 [notice] 26#26: exiting
+2025/07/18 06:47:51 [notice] 21#21: exiting
+2025/07/18 06:47:51 [notice] 27#27: exit
+2025/07/18 06:47:51 [notice] 21#21: exit
+2025/07/18 06:47:51 [notice] 24#24: gracefully shutting down
+2025/07/18 06:47:51 [notice] 24#24: exiting
+2025/07/18 06:47:51 [notice] 22#22: exit
+2025/07/18 06:47:51 [notice] 24#24: exit
+2025/07/18 06:47:51 [notice] 26#26: exit
+2025/07/18 06:47:51 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2025/07/18 06:47:51 [notice] 1#1: worker process 27 exited with code 0
+2025/07/18 06:47:51 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:47:51 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/07/18 06:47:51 [notice] 1#1: worker process 21 exited with code 0
+2025/07/18 06:47:51 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:47:51 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2025/07/18 06:47:51 [notice] 1#1: worker process 20 exited with code 0
+2025/07/18 06:47:51 [notice] 1#1: worker process 22 exited with code 0
+2025/07/18 06:47:51 [notice] 1#1: worker process 26 exited with code 0
+2025/07/18 06:47:51 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:47:51 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/07/18 06:47:51 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2025/07/18 06:47:51 [notice] 1#1: worker process 23 exited with code 0
+2025/07/18 06:47:51 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:47:51 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/07/18 06:47:51 [notice] 1#1: worker process 24 exited with code 0
+2025/07/18 06:47:51 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:47:51 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2025/07/18 06:47:51 [notice] 1#1: worker process 25 exited with code 0
+2025/07/18 06:47:51 [notice] 1#1: exit
+2025/07/18 06:47:54 [notice] 1#1: using the "epoll" event method
+2025/07/18 06:47:54 [notice] 1#1: nginx/1.29.0
+2025/07/18 06:47:54 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/07/18 06:47:54 [notice] 1#1: OS: Linux 6.15.6-arch1-1
+2025/07/18 06:47:54 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2025/07/18 06:47:54 [notice] 1#1: start worker processes
+2025/07/18 06:47:54 [notice] 1#1: start worker process 21
+2025/07/18 06:47:54 [notice] 1#1: start worker process 22
+2025/07/18 06:47:54 [notice] 1#1: start worker process 23
+2025/07/18 06:47:54 [notice] 1#1: start worker process 24
+2025/07/18 06:47:54 [notice] 1#1: start worker process 25
+2025/07/18 06:47:54 [notice] 1#1: start worker process 26
+2025/07/18 06:47:54 [notice] 1#1: start worker process 27
+2025/07/18 06:47:54 [notice] 1#1: start worker process 28
+2025/07/18 06:47:54 [error] 21#21: *1 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Admin/module-a/actions/runs/3/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/3/jobs/0", host: "gitea.startech.be"
+2025/07/18 06:47:55 [error] 21#21: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Admin/module-a/actions/runs/3/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/3/jobs/0", host: "gitea.startech.be"
+2025/07/18 06:47:55 [error] 24#24: *4 open() "/etc/nginx/html/locales/en-US/translation.json" failed (2: No such file or directory), client: 127.0.0.1, server: registry.startech.be, request: "GET /locales/en-US/translation.json HTTP/1.1", host: "registry.startech.be", referrer: "https://registry.startech.be/portainer/"
+2025/07/18 06:47:55 [error] 22#22: *3 open() "/etc/nginx/html/locales/en/translation.json" failed (2: No such file or directory), client: 127.0.0.1, server: registry.startech.be, request: "GET /locales/en/translation.json HTTP/1.1", host: "registry.startech.be", referrer: "https://registry.startech.be/portainer/"
+2025/07/18 06:47:56 [error] 21#21: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Admin/module-a/actions/runs/3/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/3/jobs/0", host: "gitea.startech.be"
+2025/07/18 06:47:57 [error] 21#21: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "POST /Admin/module-a/actions/runs/3/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/3/jobs/0", host: "gitea.startech.be"
+2025/07/18 06:52:23 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/07/18 06:52:23 [notice] 22#22: gracefully shutting down
+2025/07/18 06:52:23 [notice] 24#24: gracefully shutting down
+2025/07/18 06:52:23 [notice] 21#21: gracefully shutting down
+2025/07/18 06:52:23 [notice] 24#24: exiting
+2025/07/18 06:52:23 [notice] 21#21: exiting
+2025/07/18 06:52:23 [notice] 23#23: gracefully shutting down
+2025/07/18 06:52:23 [notice] 23#23: exiting
+2025/07/18 06:52:23 [notice] 27#27: gracefully shutting down
+2025/07/18 06:52:23 [notice] 25#25: gracefully shutting down
+2025/07/18 06:52:23 [notice] 27#27: exiting
+2025/07/18 06:52:23 [notice] 25#25: exiting
+2025/07/18 06:52:23 [notice] 26#26: gracefully shutting down
+2025/07/18 06:52:23 [notice] 22#22: exiting
+2025/07/18 06:52:23 [notice] 26#26: exiting
+2025/07/18 06:52:23 [notice] 23#23: exit
+2025/07/18 06:52:23 [notice] 27#27: exit
+2025/07/18 06:52:23 [notice] 26#26: exit
+2025/07/18 06:52:23 [notice] 22#22: exit
+2025/07/18 06:52:23 [notice] 28#28: gracefully shutting down
+2025/07/18 06:52:23 [notice] 28#28: exiting
+2025/07/18 06:52:23 [notice] 21#21: exit
+2025/07/18 06:52:23 [notice] 24#24: exit
+2025/07/18 06:52:23 [notice] 28#28: exit
+2025/07/18 06:52:23 [notice] 25#25: exit
+2025/07/18 06:52:23 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2025/07/18 06:52:23 [notice] 1#1: worker process 27 exited with code 0
+2025/07/18 06:52:23 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:52:23 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/07/18 06:52:23 [notice] 1#1: worker process 21 exited with code 0
+2025/07/18 06:52:23 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:52:23 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2025/07/18 06:52:23 [notice] 1#1: worker process 26 exited with code 0
+2025/07/18 06:52:23 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:52:23 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/07/18 06:52:23 [notice] 1#1: worker process 22 exited with code 0
+2025/07/18 06:52:23 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:52:23 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2025/07/18 06:52:23 [notice] 1#1: worker process 24 exited with code 0
+2025/07/18 06:52:23 [notice] 1#1: worker process 23 exited with code 0
+2025/07/18 06:52:23 [notice] 1#1: worker process 28 exited with code 0
+2025/07/18 06:52:23 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:52:23 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2025/07/18 06:52:23 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2025/07/18 06:52:23 [notice] 1#1: worker process 25 exited with code 0
+2025/07/18 06:52:23 [notice] 1#1: exit
+2025/07/18 06:52:26 [notice] 1#1: using the "epoll" event method
+2025/07/18 06:52:26 [notice] 1#1: nginx/1.29.0
+2025/07/18 06:52:26 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/07/18 06:52:26 [notice] 1#1: OS: Linux 6.15.6-arch1-1
+2025/07/18 06:52:26 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2025/07/18 06:52:26 [notice] 1#1: start worker processes
+2025/07/18 06:52:26 [notice] 1#1: start worker process 20
+2025/07/18 06:52:26 [notice] 1#1: start worker process 21
+2025/07/18 06:52:26 [notice] 1#1: start worker process 22
+2025/07/18 06:52:26 [notice] 1#1: start worker process 23
+2025/07/18 06:52:26 [notice] 1#1: start worker process 24
+2025/07/18 06:52:26 [notice] 1#1: start worker process 25
+2025/07/18 06:52:26 [notice] 1#1: start worker process 26
+2025/07/18 06:52:26 [notice] 1#1: start worker process 27
+2025/07/18 06:52:29 [error] 21#21: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.startech.be, request: "GET /-/admin/actions/runners/ HTTP/1.1", upstream: "http://127.0.0.1:3000/-/admin/actions/runners/", host: "gitea.startech.be"
+2025/07/18 06:52:36 [error] 23#23: *8 open() "/etc/nginx/html/locales/en-US/translation.json" failed (2: No such file or directory), client: 127.0.0.1, server: registry.startech.be, request: "GET /locales/en-US/translation.json HTTP/1.1", host: "registry.startech.be", referrer: "https://registry.startech.be/portainer/"
+2025/07/18 06:52:36 [error] 25#25: *10 open() "/etc/nginx/html/locales/en/translation.json" failed (2: No such file or directory), client: 127.0.0.1, server: registry.startech.be, request: "GET /locales/en/translation.json HTTP/1.1", host: "registry.startech.be", referrer: "https://registry.startech.be/portainer/"
+2025/07/18 06:53:21 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/07/18 06:53:21 [notice] 21#21: gracefully shutting down
+2025/07/18 06:53:21 [notice] 22#22: gracefully shutting down
+2025/07/18 06:53:21 [notice] 24#24: gracefully shutting down
+2025/07/18 06:53:21 [notice] 20#20: gracefully shutting down
+2025/07/18 06:53:21 [notice] 23#23: gracefully shutting down
+2025/07/18 06:53:21 [notice] 21#21: exiting
+2025/07/18 06:53:21 [notice] 24#24: exiting
+2025/07/18 06:53:21 [notice] 22#22: exiting
+2025/07/18 06:53:21 [notice] 20#20: exiting
+2025/07/18 06:53:21 [notice] 26#26: gracefully shutting down
+2025/07/18 06:53:21 [notice] 26#26: exiting
+2025/07/18 06:53:21 [notice] 22#22: exit
+2025/07/18 06:53:21 [notice] 21#21: exit
+2025/07/18 06:53:21 [notice] 20#20: exit
+2025/07/18 06:53:21 [notice] 27#27: gracefully shutting down
+2025/07/18 06:53:21 [notice] 26#26: exit
+2025/07/18 06:53:21 [notice] 27#27: exiting
+2025/07/18 06:53:21 [notice] 24#24: exit
+2025/07/18 06:53:21 [notice] 23#23: exiting
+2025/07/18 06:53:21 [notice] 25#25: gracefully shutting down
+2025/07/18 06:53:21 [notice] 27#27: exit
+2025/07/18 06:53:21 [notice] 25#25: exiting
+2025/07/18 06:53:21 [notice] 23#23: exit
+2025/07/18 06:53:21 [notice] 25#25: exit
+2025/07/18 06:53:21 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2025/07/18 06:53:21 [notice] 1#1: worker process 27 exited with code 0
+2025/07/18 06:53:21 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:53:21 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/07/18 06:53:21 [notice] 1#1: worker process 24 exited with code 0
+2025/07/18 06:53:21 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:53:21 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/07/18 06:53:21 [notice] 1#1: worker process 22 exited with code 0
+2025/07/18 06:53:21 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:53:21 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2025/07/18 06:53:21 [notice] 1#1: worker process 20 exited with code 0
+2025/07/18 06:53:21 [notice] 1#1: worker process 21 exited with code 0
+2025/07/18 06:53:21 [notice] 1#1: worker process 23 exited with code 0
+2025/07/18 06:53:21 [notice] 1#1: worker process 25 exited with code 0
+2025/07/18 06:53:21 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 06:53:21 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2025/07/18 06:53:21 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2025/07/18 06:53:21 [notice] 1#1: worker process 26 exited with code 0
+2025/07/18 06:53:21 [notice] 1#1: exit
+2025/07/18 06:53:25 [notice] 1#1: using the "epoll" event method
+2025/07/18 06:53:25 [notice] 1#1: nginx/1.29.0
+2025/07/18 06:53:25 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/07/18 06:53:25 [notice] 1#1: OS: Linux 6.15.6-arch1-1
+2025/07/18 06:53:25 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2025/07/18 06:53:25 [notice] 1#1: start worker processes
+2025/07/18 06:53:25 [notice] 1#1: start worker process 20
+2025/07/18 06:53:25 [notice] 1#1: start worker process 21
+2025/07/18 06:53:25 [notice] 1#1: start worker process 22
+2025/07/18 06:53:25 [notice] 1#1: start worker process 23
+2025/07/18 06:53:25 [notice] 1#1: start worker process 24
+2025/07/18 06:53:25 [notice] 1#1: start worker process 25
+2025/07/18 06:53:25 [notice] 1#1: start worker process 26
+2025/07/18 06:53:25 [notice] 1#1: start worker process 27
+2025/07/18 06:53:26 [error] 24#24: *2 open() "/etc/nginx/html/locales/en-US/translation.json" failed (2: No such file or directory), client: 127.0.0.1, server: registry.startech.be, request: "GET /locales/en-US/translation.json HTTP/1.1", host: "registry.startech.be", referrer: "https://registry.startech.be/portainer/"
+2025/07/18 06:53:26 [error] 22#22: *6 open() "/etc/nginx/html/locales/en/translation.json" failed (2: No such file or directory), client: 127.0.0.1, server: registry.startech.be, request: "GET /locales/en/translation.json HTTP/1.1", host: "registry.startech.be", referrer: "https://registry.startech.be/portainer/"
+2025/07/18 07:06:58 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/07/18 07:06:58 [notice] 20#20: gracefully shutting down
+2025/07/18 07:06:58 [notice] 20#20: exiting
+2025/07/18 07:06:58 [notice] 21#21: gracefully shutting down
+2025/07/18 07:06:58 [notice] 21#21: exiting
+2025/07/18 07:06:58 [notice] 21#21: exit
+2025/07/18 07:06:58 [notice] 22#22: gracefully shutting down
+2025/07/18 07:06:58 [notice] 22#22: exiting
+2025/07/18 07:06:58 [notice] 22#22: exit
+2025/07/18 07:06:58 [notice] 23#23: gracefully shutting down
+2025/07/18 07:06:58 [notice] 23#23: exiting
+2025/07/18 07:06:58 [notice] 23#23: exit
+2025/07/18 07:06:58 [notice] 24#24: gracefully shutting down
+2025/07/18 07:06:58 [notice] 24#24: exiting
+2025/07/18 07:06:58 [notice] 24#24: exit
+2025/07/18 07:06:58 [notice] 26#26: gracefully shutting down
+2025/07/18 07:06:58 [notice] 26#26: exiting
+2025/07/18 07:06:58 [notice] 26#26: exit
+2025/07/18 07:06:58 [notice] 25#25: gracefully shutting down
+2025/07/18 07:06:58 [notice] 27#27: gracefully shutting down
+2025/07/18 07:06:58 [notice] 27#27: exiting
+2025/07/18 07:06:58 [notice] 20#20: exit
+2025/07/18 07:06:58 [notice] 25#25: exiting
+2025/07/18 07:06:58 [notice] 27#27: exit
+2025/07/18 07:06:58 [notice] 25#25: exit
+2025/07/18 07:06:58 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2025/07/18 07:06:58 [notice] 1#1: worker process 21 exited with code 0
+2025/07/18 07:06:58 [notice] 1#1: worker process 23 exited with code 0
+2025/07/18 07:06:58 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:06:58 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/07/18 07:06:58 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2025/07/18 07:06:58 [notice] 1#1: worker process 27 exited with code 0
+2025/07/18 07:06:58 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:06:58 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2025/07/18 07:06:58 [notice] 1#1: worker process 25 exited with code 0
+2025/07/18 07:06:58 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:06:58 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2025/07/18 07:06:58 [notice] 1#1: worker process 26 exited with code 0
+2025/07/18 07:06:58 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:06:58 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/07/18 07:06:58 [notice] 1#1: worker process 22 exited with code 0
+2025/07/18 07:06:58 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:06:58 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/07/18 07:06:58 [notice] 1#1: worker process 20 exited with code 0
+2025/07/18 07:06:58 [notice] 1#1: worker process 24 exited with code 0
+2025/07/18 07:06:58 [notice] 1#1: exit
+2025/07/18 07:08:32 [notice] 1#1: using the "epoll" event method
+2025/07/18 07:08:32 [notice] 1#1: nginx/1.29.0
+2025/07/18 07:08:32 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/07/18 07:08:32 [notice] 1#1: OS: Linux 6.15.6-arch1-1
+2025/07/18 07:08:32 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2025/07/18 07:08:32 [notice] 1#1: start worker processes
+2025/07/18 07:08:32 [notice] 1#1: start worker process 20
+2025/07/18 07:08:32 [notice] 1#1: start worker process 21
+2025/07/18 07:08:32 [notice] 1#1: start worker process 22
+2025/07/18 07:08:32 [notice] 1#1: start worker process 23
+2025/07/18 07:08:32 [notice] 1#1: start worker process 24
+2025/07/18 07:08:32 [notice] 1#1: start worker process 25
+2025/07/18 07:08:32 [notice] 1#1: start worker process 26
+2025/07/18 07:08:32 [notice] 1#1: start worker process 27
+2025/07/18 07:09:33 [error] 24#24: *77 open() "/etc/nginx/html/locales/en-US/translation.json" failed (2: No such file or directory), client: 127.0.0.1, server: registry.elgem.be, request: "GET /locales/en-US/translation.json HTTP/1.1", host: "registry.elgem.be", referrer: "https://registry.elgem.be/portainer/"
+2025/07/18 07:09:33 [error] 25#25: *78 open() "/etc/nginx/html/locales/en/translation.json" failed (2: No such file or directory), client: 127.0.0.1, server: registry.elgem.be, request: "GET /locales/en/translation.json HTTP/1.1", host: "registry.elgem.be", referrer: "https://registry.elgem.be/portainer/"
+2025/07/18 07:09:34 [error] 24#24: *77 open() "/etc/nginx/html/locales/en-US/translation.json" failed (2: No such file or directory), client: 127.0.0.1, server: registry.elgem.be, request: "GET /locales/en-US/translation.json HTTP/1.1", host: "registry.elgem.be", referrer: "https://registry.elgem.be/portainer/"
+2025/07/18 07:09:34 [error] 25#25: *78 open() "/etc/nginx/html/locales/en/translation.json" failed (2: No such file or directory), client: 127.0.0.1, server: registry.elgem.be, request: "GET /locales/en/translation.json HTTP/1.1", host: "registry.elgem.be", referrer: "https://registry.elgem.be/portainer/"
+2025/07/18 07:10:26 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/07/18 07:10:26 [notice] 21#21: gracefully shutting down
+2025/07/18 07:10:26 [notice] 21#21: exiting
+2025/07/18 07:10:26 [notice] 22#22: gracefully shutting down
+2025/07/18 07:10:26 [notice] 22#22: exiting
+2025/07/18 07:10:26 [notice] 20#20: gracefully shutting down
+2025/07/18 07:10:26 [notice] 20#20: exiting
+2025/07/18 07:10:26 [notice] 20#20: exit
+2025/07/18 07:10:26 [notice] 23#23: gracefully shutting down
+2025/07/18 07:10:26 [notice] 23#23: exiting
+2025/07/18 07:10:26 [notice] 24#24: gracefully shutting down
+2025/07/18 07:10:26 [notice] 26#26: gracefully shutting down
+2025/07/18 07:10:26 [notice] 26#26: exiting
+2025/07/18 07:10:26 [notice] 22#22: exit
+2025/07/18 07:10:26 [notice] 21#21: exit
+2025/07/18 07:10:26 [notice] 23#23: exit
+2025/07/18 07:10:26 [notice] 26#26: exit
+2025/07/18 07:10:26 [notice] 24#24: exiting
+2025/07/18 07:10:26 [notice] 25#25: gracefully shutting down
+2025/07/18 07:10:26 [notice] 24#24: exit
+2025/07/18 07:10:26 [notice] 25#25: exiting
+2025/07/18 07:10:26 [notice] 25#25: exit
+2025/07/18 07:10:26 [notice] 27#27: gracefully shutting down
+2025/07/18 07:10:26 [notice] 27#27: exiting
+2025/07/18 07:10:26 [notice] 27#27: exit
+2025/07/18 07:10:26 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/07/18 07:10:26 [notice] 1#1: worker process 22 exited with code 0
+2025/07/18 07:10:26 [notice] 1#1: worker process 23 exited with code 0
+2025/07/18 07:10:26 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:10:26 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2025/07/18 07:10:26 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/07/18 07:10:26 [notice] 1#1: worker process 21 exited with code 0
+2025/07/18 07:10:26 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:10:26 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/07/18 07:10:26 [notice] 1#1: worker process 24 exited with code 0
+2025/07/18 07:10:26 [notice] 1#1: worker process 26 exited with code 0
+2025/07/18 07:10:26 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:10:26 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2025/07/18 07:10:26 [notice] 1#1: worker process 20 exited with code 0
+2025/07/18 07:10:26 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:10:26 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2025/07/18 07:10:26 [notice] 1#1: worker process 27 exited with code 0
+2025/07/18 07:10:26 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2025/07/18 07:10:26 [notice] 1#1: worker process 25 exited with code 0
+2025/07/18 07:10:26 [notice] 1#1: exit
+2025/07/18 07:10:29 [notice] 1#1: using the "epoll" event method
+2025/07/18 07:10:29 [notice] 1#1: nginx/1.29.0
+2025/07/18 07:10:29 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/07/18 07:10:29 [notice] 1#1: OS: Linux 6.15.6-arch1-1
+2025/07/18 07:10:29 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2025/07/18 07:10:29 [notice] 1#1: start worker processes
+2025/07/18 07:10:29 [notice] 1#1: start worker process 20
+2025/07/18 07:10:29 [notice] 1#1: start worker process 21
+2025/07/18 07:10:29 [notice] 1#1: start worker process 22
+2025/07/18 07:10:29 [notice] 1#1: start worker process 23
+2025/07/18 07:10:29 [notice] 1#1: start worker process 24
+2025/07/18 07:10:29 [notice] 1#1: start worker process 25
+2025/07/18 07:10:29 [notice] 1#1: start worker process 26
+2025/07/18 07:10:29 [notice] 1#1: start worker process 27
+2025/07/18 07:10:30 [error] 20#20: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/ping.v1.PingService/Ping HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/ping.v1.PingService/Ping", host: "gitea.elgem.be"
+2025/07/18 07:10:31 [error] 23#23: *9 open() "/etc/nginx/html/locales/en-US/translation.json" failed (2: No such file or directory), client: 127.0.0.1, server: registry.elgem.be, request: "GET /locales/en-US/translation.json HTTP/1.1", host: "registry.elgem.be", referrer: "https://registry.elgem.be/portainer/"
+2025/07/18 07:10:31 [error] 21#21: *3 open() "/etc/nginx/html/locales/en/translation.json" failed (2: No such file or directory), client: 127.0.0.1, server: registry.elgem.be, request: "GET /locales/en/translation.json HTTP/1.1", host: "registry.elgem.be", referrer: "https://registry.elgem.be/portainer/"
+2025/07/18 07:10:31 [error] 20#20: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/ping.v1.PingService/Ping HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/ping.v1.PingService/Ping", host: "gitea.elgem.be"
+2025/07/18 07:10:32 [error] 20#20: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/ping.v1.PingService/Ping HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/ping.v1.PingService/Ping", host: "gitea.elgem.be"
+2025/07/18 07:26:53 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/07/18 07:26:53 [notice] 20#20: gracefully shutting down
+2025/07/18 07:26:53 [notice] 22#22: gracefully shutting down
+2025/07/18 07:26:53 [notice] 22#22: exiting
+2025/07/18 07:26:53 [notice] 24#24: gracefully shutting down
+2025/07/18 07:26:53 [notice] 20#20: exiting
+2025/07/18 07:26:53 [notice] 24#24: exiting
+2025/07/18 07:26:53 [notice] 25#25: gracefully shutting down
+2025/07/18 07:26:53 [notice] 25#25: exiting
+2025/07/18 07:26:53 [notice] 20#20: exit
+2025/07/18 07:26:53 [notice] 22#22: exit
+2025/07/18 07:26:53 [notice] 23#23: gracefully shutting down
+2025/07/18 07:26:53 [notice] 23#23: exiting
+2025/07/18 07:26:53 [notice] 27#27: gracefully shutting down
+2025/07/18 07:26:53 [notice] 21#21: gracefully shutting down
+2025/07/18 07:26:53 [notice] 24#24: exit
+2025/07/18 07:26:53 [notice] 27#27: exiting
+2025/07/18 07:26:53 [notice] 23#23: exit
+2025/07/18 07:26:53 [notice] 27#27: exit
+2025/07/18 07:26:53 [notice] 25#25: exit
+2025/07/18 07:26:53 [notice] 26#26: gracefully shutting down
+2025/07/18 07:26:53 [notice] 26#26: exiting
+2025/07/18 07:26:53 [notice] 26#26: exit
+2025/07/18 07:26:53 [notice] 21#21: exiting
+2025/07/18 07:26:53 [notice] 21#21: exit
+2025/07/18 07:26:53 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2025/07/18 07:26:53 [notice] 1#1: worker process 20 exited with code 0
+2025/07/18 07:26:53 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:26:53 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/07/18 07:26:53 [notice] 1#1: worker process 24 exited with code 0
+2025/07/18 07:26:53 [notice] 1#1: worker process 25 exited with code 0
+2025/07/18 07:26:53 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:26:53 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2025/07/18 07:26:53 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2025/07/18 07:26:53 [notice] 1#1: worker process 22 exited with code 0
+2025/07/18 07:26:53 [notice] 1#1: worker process 23 exited with code 0
+2025/07/18 07:26:53 [notice] 1#1: worker process 27 exited with code 0
+2025/07/18 07:26:53 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:26:53 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2025/07/18 07:26:53 [notice] 1#1: worker process 26 exited with code 0
+2025/07/18 07:26:53 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:26:53 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/07/18 07:26:53 [notice] 1#1: worker process 21 exited with code 0
+2025/07/18 07:26:53 [notice] 1#1: exit
+2025/07/18 07:26:58 [notice] 1#1: using the "epoll" event method
+2025/07/18 07:26:58 [notice] 1#1: nginx/1.29.0
+2025/07/18 07:26:58 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/07/18 07:26:58 [notice] 1#1: OS: Linux 6.15.6-arch1-1
+2025/07/18 07:26:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2025/07/18 07:26:58 [notice] 1#1: start worker processes
+2025/07/18 07:26:58 [notice] 1#1: start worker process 20
+2025/07/18 07:26:58 [notice] 1#1: start worker process 21
+2025/07/18 07:26:58 [notice] 1#1: start worker process 22
+2025/07/18 07:26:58 [notice] 1#1: start worker process 23
+2025/07/18 07:26:58 [notice] 1#1: start worker process 24
+2025/07/18 07:26:58 [notice] 1#1: start worker process 25
+2025/07/18 07:26:58 [notice] 1#1: start worker process 26
+2025/07/18 07:26:58 [notice] 1#1: start worker process 27
+2025/07/18 07:27:01 [error] 21#21: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "GET /Admin/module-a/actions/runs/5 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/5", host: "gitea.elgem.be"
+2025/07/18 07:27:01 [error] 21#21: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:3000/favicon.ico", host: "gitea.elgem.be", referrer: "https://gitea.elgem.be/Admin/module-a/actions/runs/5"
+2025/07/18 07:27:21 [error] 21#21: *51 open() "/etc/nginx/html/locales/en-US/translation.json" failed (2: No such file or directory), client: 127.0.0.1, server: registry.elgem.be, request: "GET /locales/en-US/translation.json HTTP/1.1", host: "registry.elgem.be", referrer: "https://registry.elgem.be/portainer/"
+2025/07/18 07:27:21 [error] 20#20: *55 open() "/etc/nginx/html/locales/en/translation.json" failed (2: No such file or directory), client: 127.0.0.1, server: registry.elgem.be, request: "GET /locales/en/translation.json HTTP/1.1", host: "registry.elgem.be", referrer: "https://registry.elgem.be/portainer/"
+2025/07/18 07:29:26 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/07/18 07:29:26 [notice] 22#22: gracefully shutting down
+2025/07/18 07:29:26 [notice] 21#21: gracefully shutting down
+2025/07/18 07:29:26 [notice] 27#27: gracefully shutting down
+2025/07/18 07:29:26 [notice] 23#23: gracefully shutting down
+2025/07/18 07:29:26 [notice] 22#22: exiting
+2025/07/18 07:29:26 [notice] 23#23: exiting
+2025/07/18 07:29:26 [notice] 20#20: gracefully shutting down
+2025/07/18 07:29:26 [notice] 24#24: gracefully shutting down
+2025/07/18 07:29:26 [notice] 24#24: exiting
+2025/07/18 07:29:26 [notice] 21#21: exiting
+2025/07/18 07:29:26 [notice] 22#22: exit
+2025/07/18 07:29:26 [notice] 21#21: exit
+2025/07/18 07:29:26 [notice] 24#24: exit
+2025/07/18 07:29:26 [notice] 20#20: exiting
+2025/07/18 07:29:26 [notice] 20#20: exit
+2025/07/18 07:29:26 [notice] 23#23: exit
+2025/07/18 07:29:26 [notice] 25#25: gracefully shutting down
+2025/07/18 07:29:26 [notice] 25#25: exiting
+2025/07/18 07:29:26 [notice] 27#27: exiting
+2025/07/18 07:29:26 [notice] 27#27: exit
+2025/07/18 07:29:26 [notice] 25#25: exit
+2025/07/18 07:29:26 [notice] 26#26: gracefully shutting down
+2025/07/18 07:29:26 [notice] 26#26: exiting
+2025/07/18 07:29:26 [notice] 26#26: exit
+2025/07/18 07:29:26 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2025/07/18 07:29:26 [notice] 1#1: worker process 20 exited with code 0
+2025/07/18 07:29:26 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:29:26 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2025/07/18 07:29:26 [notice] 1#1: worker process 23 exited with code 0
+2025/07/18 07:29:26 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:29:26 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2025/07/18 07:29:26 [notice] 1#1: worker process 27 exited with code 0
+2025/07/18 07:29:26 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:29:26 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2025/07/18 07:29:26 [notice] 1#1: worker process 26 exited with code 0
+2025/07/18 07:29:26 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:29:26 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/07/18 07:29:26 [notice] 1#1: worker process 21 exited with code 0
+2025/07/18 07:29:26 [notice] 1#1: worker process 22 exited with code 0
+2025/07/18 07:29:26 [notice] 1#1: worker process 24 exited with code 0
+2025/07/18 07:29:26 [notice] 1#1: worker process 25 exited with code 0
+2025/07/18 07:29:26 [notice] 1#1: exit
+2025/07/18 07:29:29 [notice] 1#1: using the "epoll" event method
+2025/07/18 07:29:29 [notice] 1#1: nginx/1.29.0
+2025/07/18 07:29:29 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/07/18 07:29:29 [notice] 1#1: OS: Linux 6.15.6-arch1-1
+2025/07/18 07:29:29 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2025/07/18 07:29:29 [notice] 1#1: start worker processes
+2025/07/18 07:29:29 [notice] 1#1: start worker process 20
+2025/07/18 07:29:29 [notice] 1#1: start worker process 21
+2025/07/18 07:29:29 [notice] 1#1: start worker process 22
+2025/07/18 07:29:29 [notice] 1#1: start worker process 23
+2025/07/18 07:29:29 [notice] 1#1: start worker process 24
+2025/07/18 07:29:29 [notice] 1#1: start worker process 25
+2025/07/18 07:29:29 [notice] 1#1: start worker process 26
+2025/07/18 07:29:29 [notice] 1#1: start worker process 27
+2025/07/18 07:29:29 [error] 20#20: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/Declare HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/Declare", host: "gitea.elgem.be"
+2025/07/18 07:29:29 [error] 21#21: *3 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /Admin/module-a/actions/runs/5/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/5/jobs/0", host: "gitea.elgem.be"
+2025/07/18 07:29:31 [error] 21#21: *3 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /Admin/module-a/actions/runs/5/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/5/jobs/0", host: "gitea.elgem.be"
+2025/07/18 07:29:31 [error] 22#22: *6 open() "/etc/nginx/html/locales/en-US/translation.json" failed (2: No such file or directory), client: 127.0.0.1, server: registry.elgem.be, request: "GET /locales/en-US/translation.json HTTP/1.1", host: "registry.elgem.be", referrer: "https://registry.elgem.be/portainer/"
+2025/07/18 07:29:31 [error] 24#24: *10 open() "/etc/nginx/html/locales/en/translation.json" failed (2: No such file or directory), client: 127.0.0.1, server: registry.elgem.be, request: "GET /locales/en/translation.json HTTP/1.1", host: "registry.elgem.be", referrer: "https://registry.elgem.be/portainer/"
+2025/07/18 07:29:31 [error] 21#21: *3 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "GET /user/events HTTP/1.1", upstream: "http://127.0.0.1:3000/user/events", host: "gitea.elgem.be"
+2025/07/18 07:29:31 [error] 21#21: *3 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /Admin/module-a/actions/runs/5/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/5/jobs/0", host: "gitea.elgem.be"
+2025/07/18 07:29:33 [error] 21#21: *3 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /Admin/module-a/actions/runs/5/jobs/0 HTTP/1.1", upstream: "http://127.0.0.1:3000/Admin/module-a/actions/runs/5/jobs/0", host: "gitea.elgem.be"
+2025/07/18 07:31:12 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/07/18 07:31:12 [notice] 20#20: gracefully shutting down
+2025/07/18 07:31:12 [notice] 22#22: gracefully shutting down
+2025/07/18 07:31:12 [notice] 23#23: gracefully shutting down
+2025/07/18 07:31:12 [notice] 24#24: gracefully shutting down
+2025/07/18 07:31:12 [notice] 23#23: exiting
+2025/07/18 07:31:12 [notice] 24#24: exiting
+2025/07/18 07:31:12 [notice] 21#21: gracefully shutting down
+2025/07/18 07:31:12 [notice] 22#22: exiting
+2025/07/18 07:31:12 [notice] 27#27: gracefully shutting down
+2025/07/18 07:31:12 [notice] 21#21: exiting
+2025/07/18 07:31:12 [notice] 20#20: exiting
+2025/07/18 07:31:12 [notice] 27#27: exiting
+2025/07/18 07:31:12 [notice] 23#23: exit
+2025/07/18 07:31:12 [notice] 22#22: exit
+2025/07/18 07:31:12 [notice] 21#21: exit
+2025/07/18 07:31:12 [notice] 20#20: exit
+2025/07/18 07:31:12 [notice] 27#27: exit
+2025/07/18 07:31:12 [notice] 24#24: exit
+2025/07/18 07:31:12 [notice] 25#25: gracefully shutting down
+2025/07/18 07:31:12 [notice] 25#25: exiting
+2025/07/18 07:31:12 [notice] 26#26: gracefully shutting down
+2025/07/18 07:31:12 [notice] 26#26: exiting
+2025/07/18 07:31:12 [notice] 26#26: exit
+2025/07/18 07:31:12 [notice] 25#25: exit
+2025/07/18 07:31:12 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/07/18 07:31:12 [notice] 1#1: worker process 21 exited with code 0
+2025/07/18 07:31:12 [notice] 1#1: worker process 20 exited with code 0
+2025/07/18 07:31:12 [notice] 1#1: worker process 22 exited with code 0
+2025/07/18 07:31:12 [notice] 1#1: worker process 24 exited with code 0
+2025/07/18 07:31:12 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:31:12 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/07/18 07:31:12 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2025/07/18 07:31:12 [notice] 1#1: worker process 23 exited with code 0
+2025/07/18 07:31:12 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:31:12 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2025/07/18 07:31:12 [notice] 1#1: worker process 25 exited with code 0
+2025/07/18 07:31:12 [notice] 1#1: worker process 27 exited with code 0
+2025/07/18 07:31:12 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:31:12 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2025/07/18 07:31:12 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2025/07/18 07:31:12 [notice] 1#1: worker process 26 exited with code 0
+2025/07/18 07:31:12 [notice] 1#1: exit
+2025/07/18 07:31:16 [notice] 1#1: using the "epoll" event method
+2025/07/18 07:31:16 [notice] 1#1: nginx/1.29.0
+2025/07/18 07:31:16 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/07/18 07:31:16 [notice] 1#1: OS: Linux 6.15.6-arch1-1
+2025/07/18 07:31:16 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2025/07/18 07:31:16 [notice] 1#1: start worker processes
+2025/07/18 07:31:16 [notice] 1#1: start worker process 20
+2025/07/18 07:31:16 [notice] 1#1: start worker process 21
+2025/07/18 07:31:16 [notice] 1#1: start worker process 22
+2025/07/18 07:31:16 [notice] 1#1: start worker process 23
+2025/07/18 07:31:16 [notice] 1#1: start worker process 24
+2025/07/18 07:31:16 [notice] 1#1: start worker process 25
+2025/07/18 07:31:16 [notice] 1#1: start worker process 26
+2025/07/18 07:31:16 [notice] 1#1: start worker process 27
+2025/07/18 07:31:16 [error] 20#20: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/Declare HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/Declare", host: "gitea.elgem.be"
+2025/07/18 07:31:17 [error] 23#23: *4 open() "/etc/nginx/html/locales/en-US/translation.json" failed (2: No such file or directory), client: 127.0.0.1, server: registry.elgem.be, request: "GET /locales/en-US/translation.json HTTP/1.1", host: "registry.elgem.be", referrer: "https://registry.elgem.be/portainer/"
+2025/07/18 07:31:17 [error] 22#22: *6 open() "/etc/nginx/html/locales/en/translation.json" failed (2: No such file or directory), client: 127.0.0.1, server: registry.elgem.be, request: "GET /locales/en/translation.json HTTP/1.1", host: "registry.elgem.be", referrer: "https://registry.elgem.be/portainer/"
+2025/07/18 07:32:17 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/07/18 07:32:17 [notice] 20#20: gracefully shutting down
+2025/07/18 07:32:17 [notice] 21#21: gracefully shutting down
+2025/07/18 07:32:17 [notice] 26#26: gracefully shutting down
+2025/07/18 07:32:17 [notice] 20#20: exiting
+2025/07/18 07:32:17 [notice] 26#26: exiting
+2025/07/18 07:32:17 [notice] 21#21: exiting
+2025/07/18 07:32:17 [notice] 22#22: gracefully shutting down
+2025/07/18 07:32:17 [notice] 25#25: gracefully shutting down
+2025/07/18 07:32:17 [notice] 20#20: exit
+2025/07/18 07:32:17 [notice] 21#21: exit
+2025/07/18 07:32:17 [notice] 25#25: exiting
+2025/07/18 07:32:17 [notice] 22#22: exiting
+2025/07/18 07:32:17 [notice] 24#24: gracefully shutting down
+2025/07/18 07:32:17 [notice] 27#27: gracefully shutting down
+2025/07/18 07:32:17 [notice] 23#23: gracefully shutting down
+2025/07/18 07:32:17 [notice] 24#24: exiting
+2025/07/18 07:32:17 [notice] 27#27: exiting
+2025/07/18 07:32:17 [notice] 23#23: exiting
+2025/07/18 07:32:17 [notice] 25#25: exit
+2025/07/18 07:32:17 [notice] 23#23: exit
+2025/07/18 07:32:17 [notice] 26#26: exit
+2025/07/18 07:32:17 [notice] 27#27: exit
+2025/07/18 07:32:17 [notice] 22#22: exit
+2025/07/18 07:32:17 [notice] 24#24: exit
+2025/07/18 07:32:17 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2025/07/18 07:32:17 [notice] 1#1: worker process 21 exited with code 0
+2025/07/18 07:32:17 [notice] 1#1: worker process 23 exited with code 0
+2025/07/18 07:32:17 [notice] 1#1: worker process 24 exited with code 0
+2025/07/18 07:32:17 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:32:17 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/07/18 07:32:17 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2025/07/18 07:32:17 [notice] 1#1: worker process 25 exited with code 0
+2025/07/18 07:32:17 [notice] 1#1: worker process 27 exited with code 0
+2025/07/18 07:32:17 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:32:17 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2025/07/18 07:32:17 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2025/07/18 07:32:17 [notice] 1#1: worker process 26 exited with code 0
+2025/07/18 07:32:17 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:32:17 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2025/07/18 07:32:17 [notice] 1#1: worker process 20 exited with code 0
+2025/07/18 07:32:17 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:32:17 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/07/18 07:32:17 [notice] 1#1: worker process 22 exited with code 0
+2025/07/18 07:32:17 [notice] 1#1: exit
+2025/07/18 07:32:29 [notice] 1#1: using the "epoll" event method
+2025/07/18 07:32:29 [notice] 1#1: nginx/1.29.0
+2025/07/18 07:32:29 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/07/18 07:32:29 [notice] 1#1: OS: Linux 6.15.6-arch1-1
+2025/07/18 07:32:29 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2025/07/18 07:32:29 [notice] 1#1: start worker processes
+2025/07/18 07:32:29 [notice] 1#1: start worker process 20
+2025/07/18 07:32:29 [notice] 1#1: start worker process 21
+2025/07/18 07:32:29 [notice] 1#1: start worker process 22
+2025/07/18 07:32:29 [notice] 1#1: start worker process 23
+2025/07/18 07:32:29 [notice] 1#1: start worker process 24
+2025/07/18 07:32:29 [notice] 1#1: start worker process 25
+2025/07/18 07:32:29 [notice] 1#1: start worker process 26
+2025/07/18 07:32:29 [notice] 1#1: start worker process 27
+2025/07/18 07:32:29 [error] 20#20: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/Declare HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/Declare", host: "gitea.elgem.be"
+2025/07/18 07:32:30 [error] 22#22: *3 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/Declare HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/Declare", host: "gitea.elgem.be"
+2025/07/18 07:32:30 [error] 24#24: *5 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/Declare HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/Declare", host: "gitea.elgem.be"
+2025/07/18 07:32:30 [error] 20#20: *25 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/Declare HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/Declare", host: "gitea.elgem.be"
+2025/07/18 07:32:31 [error] 26#26: *9 open() "/etc/nginx/html/locales/en-US/translation.json" failed (2: No such file or directory), client: 127.0.0.1, server: registry.elgem.be, request: "GET /locales/en-US/translation.json HTTP/1.1", host: "registry.elgem.be", referrer: "https://registry.elgem.be/portainer/"
+2025/07/18 07:32:31 [error] 26#26: *10 open() "/etc/nginx/html/locales/en/translation.json" failed (2: No such file or directory), client: 127.0.0.1, server: registry.elgem.be, request: "GET /locales/en/translation.json HTTP/1.1", host: "registry.elgem.be", referrer: "https://registry.elgem.be/portainer/"
+2025/07/18 07:32:31 [error] 20#20: *32 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/Declare HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/Declare", host: "gitea.elgem.be"
+2025/07/18 07:42:27 [error] 20#20: *34 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:42:29 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:42:31 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:42:31 [error] 20#20: *648 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "GET /user/events HTTP/1.1", upstream: "http://127.0.0.1:3000/user/events", host: "gitea.elgem.be"
+2025/07/18 07:42:33 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:42:35 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:42:37 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:42:39 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:42:41 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:42:43 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:42:45 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:42:47 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:42:49 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:42:51 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:42:53 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:42:54 [error] 20#20: *648 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "gitea.elgem.be"
+2025/07/18 07:42:54 [error] 20#20: *648 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "gitea.elgem.be"
+2025/07/18 07:42:55 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:42:57 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:42:59 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:43:01 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:43:03 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:43:05 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:43:07 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:43:09 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:43:11 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:43:13 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:43:15 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:43:16 [error] 26#26: *10 open() "/etc/nginx/html/locales/en-US/translation.json" failed (2: No such file or directory), client: 127.0.0.1, server: registry.elgem.be, request: "GET /locales/en-US/translation.json HTTP/1.1", host: "registry.elgem.be", referrer: "https://registry.elgem.be/portainer/"
+2025/07/18 07:43:16 [error] 20#20: *542 open() "/etc/nginx/html/locales/en/translation.json" failed (2: No such file or directory), client: 127.0.0.1, server: registry.elgem.be, request: "GET /locales/en/translation.json HTTP/1.1", host: "registry.elgem.be", referrer: "https://registry.elgem.be/portainer/"
+2025/07/18 07:43:17 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:43:19 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:43:21 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:43:23 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:43:25 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:43:27 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:43:29 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:43:31 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:43:33 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:43:35 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:43:37 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:43:39 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:43:41 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:43:43 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:43:45 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:43:47 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:43:49 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:43:51 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:43:53 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:43:55 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:43:57 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:43:59 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:44:01 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:44:03 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:44:05 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:44:07 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:44:09 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:44:11 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:44:13 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:44:15 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:44:17 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:44:19 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:44:21 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:44:23 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:44:25 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:44:27 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:44:29 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:44:31 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:44:33 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:44:35 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:44:37 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:44:39 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:44:41 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:44:43 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:44:45 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:44:47 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:44:49 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:44:51 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:44:53 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:44:55 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:44:57 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:44:59 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:45:01 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:45:03 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:45:05 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:45:07 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:45:09 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:45:11 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:45:13 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:45:15 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:45:17 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:45:19 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:45:21 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:45:23 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:45:25 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:45:27 [error] 20#20: *34 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gitea.elgem.be, request: "POST /api/actions/runner.v1.RunnerService/FetchTask HTTP/1.1", upstream: "http://127.0.0.1:3000/api/actions/runner.v1.RunnerService/FetchTask", host: "gitea.elgem.be"
+2025/07/18 07:45:29 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/07/18 07:45:29 [notice] 21#21: gracefully shutting down
+2025/07/18 07:45:29 [notice] 22#22: gracefully shutting down
+2025/07/18 07:45:29 [notice] 21#21: exiting
+2025/07/18 07:45:29 [notice] 23#23: gracefully shutting down
+2025/07/18 07:45:29 [notice] 22#22: exiting
+2025/07/18 07:45:29 [notice] 23#23: exiting
+2025/07/18 07:45:29 [notice] 20#20: gracefully shutting down
+2025/07/18 07:45:29 [notice] 20#20: exiting
+2025/07/18 07:45:29 [notice] 24#24: gracefully shutting down
+2025/07/18 07:45:29 [notice] 24#24: exiting
+2025/07/18 07:45:29 [notice] 22#22: exit
+2025/07/18 07:45:29 [notice] 21#21: exit
+2025/07/18 07:45:29 [notice] 23#23: exit
+2025/07/18 07:45:29 [notice] 26#26: gracefully shutting down
+2025/07/18 07:45:29 [notice] 24#24: exit
+2025/07/18 07:45:29 [notice] 20#20: exit
+2025/07/18 07:45:29 [notice] 27#27: gracefully shutting down
+2025/07/18 07:45:29 [notice] 27#27: exiting
+2025/07/18 07:45:29 [notice] 25#25: gracefully shutting down
+2025/07/18 07:45:29 [notice] 25#25: exiting
+2025/07/18 07:45:29 [notice] 25#25: exit
+2025/07/18 07:45:29 [notice] 26#26: exiting
+2025/07/18 07:45:29 [notice] 27#27: exit
+2025/07/18 07:45:29 [notice] 26#26: exit
+2025/07/18 07:45:29 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/07/18 07:45:29 [notice] 1#1: worker process 21 exited with code 0
+2025/07/18 07:45:29 [notice] 1#1: worker process 22 exited with code 0
+2025/07/18 07:45:29 [notice] 1#1: worker process 26 exited with code 0
+2025/07/18 07:45:29 [notice] 1#1: worker process 27 exited with code 0
+2025/07/18 07:45:29 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:45:29 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2025/07/18 07:45:29 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/07/18 07:45:29 [notice] 1#1: worker process 24 exited with code 0
+2025/07/18 07:45:29 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:45:29 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2025/07/18 07:45:29 [notice] 1#1: worker process 20 exited with code 0
+2025/07/18 07:45:29 [notice] 1#1: worker process 23 exited with code 0
+2025/07/18 07:45:29 [notice] 1#1: worker process 25 exited with code 0
+2025/07/18 07:45:29 [notice] 1#1: exit
+2025/07/18 07:45:34 [emerg] 1#1: host not found in upstream "gitea" in /etc/nginx/conf.d/gitea.conf:13
+2025/07/18 07:47:45 [notice] 1#1: using the "epoll" event method
+2025/07/18 07:47:45 [notice] 1#1: nginx/1.29.0
+2025/07/18 07:47:45 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/07/18 07:47:45 [notice] 1#1: OS: Linux 6.15.6-arch1-1
+2025/07/18 07:47:45 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2025/07/18 07:47:45 [notice] 1#1: start worker processes
+2025/07/18 07:47:45 [notice] 1#1: start worker process 20
+2025/07/18 07:47:45 [notice] 1#1: start worker process 21
+2025/07/18 07:47:45 [notice] 1#1: start worker process 22
+2025/07/18 07:47:45 [notice] 1#1: start worker process 23
+2025/07/18 07:47:45 [notice] 1#1: start worker process 24
+2025/07/18 07:47:45 [notice] 1#1: start worker process 25
+2025/07/18 07:47:45 [notice] 1#1: start worker process 26
+2025/07/18 07:47:45 [notice] 1#1: start worker process 27
+2025/07/18 07:50:53 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/07/18 07:50:53 [notice] 20#20: gracefully shutting down
+2025/07/18 07:50:53 [notice] 22#22: gracefully shutting down
+2025/07/18 07:50:53 [notice] 20#20: exiting
+2025/07/18 07:50:53 [notice] 22#22: exiting
+2025/07/18 07:50:53 [notice] 26#26: gracefully shutting down
+2025/07/18 07:50:53 [notice] 23#23: gracefully shutting down
+2025/07/18 07:50:53 [notice] 25#25: gracefully shutting down
+2025/07/18 07:50:53 [notice] 26#26: exiting
+2025/07/18 07:50:53 [notice] 23#23: exiting
+2025/07/18 07:50:53 [notice] 25#25: exiting
+2025/07/18 07:50:53 [notice] 27#27: gracefully shutting down
+2025/07/18 07:50:53 [notice] 27#27: exiting
+2025/07/18 07:50:53 [notice] 25#25: exit
+2025/07/18 07:50:53 [notice] 21#21: gracefully shutting down
+2025/07/18 07:50:53 [notice] 22#22: exit
+2025/07/18 07:50:53 [notice] 26#26: exit
+2025/07/18 07:50:53 [notice] 21#21: exiting
+2025/07/18 07:50:53 [notice] 27#27: exit
+2025/07/18 07:50:53 [notice] 21#21: exit
+2025/07/18 07:50:53 [notice] 23#23: exit
+2025/07/18 07:50:53 [notice] 20#20: exit
+2025/07/18 07:50:53 [notice] 24#24: gracefully shutting down
+2025/07/18 07:50:53 [notice] 24#24: exiting
+2025/07/18 07:50:53 [notice] 24#24: exit
+2025/07/18 07:50:53 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2025/07/18 07:50:53 [notice] 1#1: worker process 26 exited with code 0
+2025/07/18 07:50:53 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:50:53 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2025/07/18 07:50:53 [notice] 1#1: worker process 25 exited with code 0
+2025/07/18 07:50:53 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:50:53 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/07/18 07:50:53 [notice] 1#1: worker process 21 exited with code 0
+2025/07/18 07:50:53 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:50:53 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/07/18 07:50:53 [notice] 1#1: worker process 22 exited with code 0
+2025/07/18 07:50:53 [notice] 1#1: worker process 23 exited with code 0
+2025/07/18 07:50:53 [notice] 1#1: worker process 24 exited with code 0
+2025/07/18 07:50:53 [notice] 1#1: worker process 27 exited with code 0
+2025/07/18 07:50:53 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:50:53 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2025/07/18 07:50:53 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2025/07/18 07:50:53 [notice] 1#1: worker process 20 exited with code 0
+2025/07/18 07:50:53 [notice] 1#1: exit
+2025/07/18 07:50:58 [notice] 1#1: using the "epoll" event method
+2025/07/18 07:50:58 [notice] 1#1: nginx/1.29.0
+2025/07/18 07:50:58 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/07/18 07:50:58 [notice] 1#1: OS: Linux 6.15.6-arch1-1
+2025/07/18 07:50:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2025/07/18 07:50:58 [notice] 1#1: start worker processes
+2025/07/18 07:50:58 [notice] 1#1: start worker process 20
+2025/07/18 07:50:58 [notice] 1#1: start worker process 21
+2025/07/18 07:50:58 [notice] 1#1: start worker process 22
+2025/07/18 07:50:58 [notice] 1#1: start worker process 23
+2025/07/18 07:50:58 [notice] 1#1: start worker process 24
+2025/07/18 07:50:58 [notice] 1#1: start worker process 25
+2025/07/18 07:50:58 [notice] 1#1: start worker process 26
+2025/07/18 07:50:58 [notice] 1#1: start worker process 27
+2025/07/18 07:51:01 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: pma.elgem.be, request: "GET / HTTP/1.1", upstream: "http://172.19.0.7:8080/", host: "pma.elgem.be"
+2025/07/18 07:51:01 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: pma.elgem.be, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.19.0.7:8080/favicon.ico", host: "pma.elgem.be", referrer: "https://pma.elgem.be/"
+2025/07/18 07:51:02 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: pma.elgem.be, request: "GET / HTTP/1.1", upstream: "http://172.19.0.7:8080/", host: "pma.elgem.be"
+2025/07/18 07:51:02 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: pma.elgem.be, request: "GET / HTTP/1.1", upstream: "http://172.19.0.7:8080/", host: "pma.elgem.be"
+2025/07/18 07:51:02 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: pma.elgem.be, request: "GET / HTTP/1.1", upstream: "http://172.19.0.7:8080/", host: "pma.elgem.be"
+2025/07/18 07:51:03 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: pma.elgem.be, request: "GET / HTTP/1.1", upstream: "http://172.19.0.7:8080/", host: "pma.elgem.be"
+2025/07/18 07:53:03 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/07/18 07:53:03 [notice] 20#20: gracefully shutting down
+2025/07/18 07:53:03 [notice] 21#21: gracefully shutting down
+2025/07/18 07:53:03 [notice] 21#21: exiting
+2025/07/18 07:53:03 [notice] 20#20: exiting
+2025/07/18 07:53:03 [notice] 22#22: gracefully shutting down
+2025/07/18 07:53:03 [notice] 22#22: exiting
+2025/07/18 07:53:03 [notice] 20#20: exit
+2025/07/18 07:53:03 [notice] 22#22: exit
+2025/07/18 07:53:03 [notice] 21#21: exit
+2025/07/18 07:53:03 [notice] 23#23: gracefully shutting down
+2025/07/18 07:53:03 [notice] 24#24: gracefully shutting down
+2025/07/18 07:53:03 [notice] 25#25: gracefully shutting down
+2025/07/18 07:53:03 [notice] 23#23: exiting
+2025/07/18 07:53:03 [notice] 24#24: exiting
+2025/07/18 07:53:03 [notice] 25#25: exiting
+2025/07/18 07:53:03 [notice] 27#27: gracefully shutting down
+2025/07/18 07:53:03 [notice] 27#27: exiting
+2025/07/18 07:53:03 [notice] 26#26: gracefully shutting down
+2025/07/18 07:53:03 [notice] 26#26: exiting
+2025/07/18 07:53:03 [notice] 24#24: exit
+2025/07/18 07:53:03 [notice] 23#23: exit
+2025/07/18 07:53:03 [notice] 25#25: exit
+2025/07/18 07:53:03 [notice] 27#27: exit
+2025/07/18 07:53:03 [notice] 26#26: exit
+2025/07/18 07:53:03 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/07/18 07:53:03 [notice] 1#1: worker process 21 exited with code 0
+2025/07/18 07:53:03 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:53:03 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2025/07/18 07:53:03 [notice] 1#1: worker process 20 exited with code 0
+2025/07/18 07:53:03 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:53:03 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/07/18 07:53:03 [notice] 1#1: worker process 22 exited with code 0
+2025/07/18 07:53:03 [notice] 1#1: worker process 24 exited with code 0
+2025/07/18 07:53:03 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:53:03 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2025/07/18 07:53:03 [notice] 1#1: worker process 26 exited with code 0
+2025/07/18 07:53:03 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:53:03 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2025/07/18 07:53:03 [notice] 1#1: worker process 27 exited with code 0
+2025/07/18 07:53:03 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:53:03 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2025/07/18 07:53:03 [notice] 1#1: worker process 23 exited with code 0
+2025/07/18 07:53:03 [notice] 1#1: worker process 25 exited with code 0
+2025/07/18 07:53:03 [notice] 1#1: exit
+2025/07/18 07:53:11 [notice] 1#1: using the "epoll" event method
+2025/07/18 07:53:11 [notice] 1#1: nginx/1.29.0
+2025/07/18 07:53:11 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/07/18 07:53:11 [notice] 1#1: OS: Linux 6.15.6-arch1-1
+2025/07/18 07:53:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2025/07/18 07:53:11 [notice] 1#1: start worker processes
+2025/07/18 07:53:11 [notice] 1#1: start worker process 20
+2025/07/18 07:53:11 [notice] 1#1: start worker process 21
+2025/07/18 07:53:11 [notice] 1#1: start worker process 22
+2025/07/18 07:53:11 [notice] 1#1: start worker process 23
+2025/07/18 07:53:11 [notice] 1#1: start worker process 24
+2025/07/18 07:53:11 [notice] 1#1: start worker process 25
+2025/07/18 07:53:11 [notice] 1#1: start worker process 26
+2025/07/18 07:53:11 [notice] 1#1: start worker process 27
+2025/07/18 07:55:15 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/07/18 07:55:15 [notice] 20#20: gracefully shutting down
+2025/07/18 07:55:15 [notice] 26#26: gracefully shutting down
+2025/07/18 07:55:15 [notice] 22#22: gracefully shutting down
+2025/07/18 07:55:15 [notice] 23#23: gracefully shutting down
+2025/07/18 07:55:15 [notice] 24#24: gracefully shutting down
+2025/07/18 07:55:15 [notice] 21#21: gracefully shutting down
+2025/07/18 07:55:15 [notice] 27#27: gracefully shutting down
+2025/07/18 07:55:15 [notice] 22#22: exiting
+2025/07/18 07:55:15 [notice] 20#20: exiting
+2025/07/18 07:55:15 [notice] 21#21: exiting
+2025/07/18 07:55:15 [notice] 27#27: exiting
+2025/07/18 07:55:15 [notice] 24#24: exiting
+2025/07/18 07:55:15 [notice] 23#23: exiting
+2025/07/18 07:55:15 [notice] 27#27: exit
+2025/07/18 07:55:15 [notice] 22#22: exit
+2025/07/18 07:55:15 [notice] 24#24: exit
+2025/07/18 07:55:15 [notice] 20#20: exit
+2025/07/18 07:55:15 [notice] 23#23: exit
+2025/07/18 07:55:15 [notice] 25#25: gracefully shutting down
+2025/07/18 07:55:15 [notice] 25#25: exiting
+2025/07/18 07:55:15 [notice] 21#21: exit
+2025/07/18 07:55:15 [notice] 25#25: exit
+2025/07/18 07:55:15 [notice] 26#26: exiting
+2025/07/18 07:55:15 [notice] 26#26: exit
+2025/07/18 07:55:15 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2025/07/18 07:55:15 [notice] 1#1: worker process 20 exited with code 0
+2025/07/18 07:55:15 [notice] 1#1: worker process 27 exited with code 0
+2025/07/18 07:55:15 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:55:15 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/07/18 07:55:15 [notice] 1#1: worker process 22 exited with code 0
+2025/07/18 07:55:15 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:55:15 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2025/07/18 07:55:15 [notice] 1#1: worker process 24 exited with code 0
+2025/07/18 07:55:15 [notice] 1#1: worker process 25 exited with code 0
+2025/07/18 07:55:15 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:55:15 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/07/18 07:55:15 [notice] 1#1: worker process 21 exited with code 0
+2025/07/18 07:55:15 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:55:15 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2025/07/18 07:55:15 [notice] 1#1: worker process 23 exited with code 0
+2025/07/18 07:55:15 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:55:15 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2025/07/18 07:55:15 [notice] 1#1: worker process 26 exited with code 0
+2025/07/18 07:55:15 [notice] 1#1: exit
+2025/07/18 07:55:23 [notice] 1#1: using the "epoll" event method
+2025/07/18 07:55:23 [notice] 1#1: nginx/1.29.0
+2025/07/18 07:55:23 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/07/18 07:55:23 [notice] 1#1: OS: Linux 6.15.6-arch1-1
+2025/07/18 07:55:23 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2025/07/18 07:55:23 [notice] 1#1: start worker processes
+2025/07/18 07:55:23 [notice] 1#1: start worker process 20
+2025/07/18 07:55:23 [notice] 1#1: start worker process 21
+2025/07/18 07:55:23 [notice] 1#1: start worker process 22
+2025/07/18 07:55:23 [notice] 1#1: start worker process 23
+2025/07/18 07:55:23 [notice] 1#1: start worker process 24
+2025/07/18 07:55:23 [notice] 1#1: start worker process 25
+2025/07/18 07:55:23 [notice] 1#1: start worker process 26
+2025/07/18 07:55:23 [notice] 1#1: start worker process 27
+2025/07/18 07:55:26 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: gitea.elgem.be, request: "GET / HTTP/1.1", upstream: "http://172.19.0.7:3000/", host: "gitea.elgem.be"
+2025/07/18 07:55:51 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/07/18 07:55:51 [notice] 20#20: gracefully shutting down
+2025/07/18 07:55:51 [notice] 24#24: gracefully shutting down
+2025/07/18 07:55:51 [notice] 23#23: gracefully shutting down
+2025/07/18 07:55:51 [notice] 27#27: gracefully shutting down
+2025/07/18 07:55:51 [notice] 24#24: exiting
+2025/07/18 07:55:51 [notice] 23#23: exiting
+2025/07/18 07:55:51 [notice] 27#27: exiting
+2025/07/18 07:55:51 [notice] 21#21: gracefully shutting down
+2025/07/18 07:55:51 [notice] 25#25: gracefully shutting down
+2025/07/18 07:55:51 [notice] 25#25: exiting
+2025/07/18 07:55:51 [notice] 21#21: exiting
+2025/07/18 07:55:51 [notice] 22#22: gracefully shutting down
+2025/07/18 07:55:51 [notice] 22#22: exiting
+2025/07/18 07:55:51 [notice] 26#26: gracefully shutting down
+2025/07/18 07:55:51 [notice] 26#26: exiting
+2025/07/18 07:55:51 [notice] 21#21: exit
+2025/07/18 07:55:51 [notice] 23#23: exit
+2025/07/18 07:55:51 [notice] 24#24: exit
+2025/07/18 07:55:51 [notice] 27#27: exit
+2025/07/18 07:55:51 [notice] 25#25: exit
+2025/07/18 07:55:51 [notice] 22#22: exit
+2025/07/18 07:55:51 [notice] 26#26: exit
+2025/07/18 07:55:51 [notice] 20#20: exiting
+2025/07/18 07:55:51 [notice] 20#20: exit
+2025/07/18 07:55:51 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/07/18 07:55:51 [notice] 1#1: worker process 22 exited with code 0
+2025/07/18 07:55:51 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:55:51 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2025/07/18 07:55:51 [notice] 1#1: worker process 24 exited with code 0
+2025/07/18 07:55:51 [notice] 1#1: worker process 27 exited with code 0
+2025/07/18 07:55:51 [notice] 1#1: worker process 21 exited with code 0
+2025/07/18 07:55:51 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:55:51 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/07/18 07:55:51 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2025/07/18 07:55:51 [notice] 1#1: worker process 23 exited with code 0
+2025/07/18 07:55:51 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:55:51 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2025/07/18 07:55:51 [notice] 1#1: worker process 25 exited with code 0
+2025/07/18 07:55:51 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:55:51 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2025/07/18 07:55:51 [notice] 1#1: worker process 26 exited with code 0
+2025/07/18 07:55:51 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:55:51 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2025/07/18 07:55:51 [notice] 1#1: worker process 20 exited with code 0
+2025/07/18 07:55:51 [notice] 1#1: exit
+2025/07/18 07:55:54 [notice] 1#1: using the "epoll" event method
+2025/07/18 07:55:54 [notice] 1#1: nginx/1.29.0
+2025/07/18 07:55:54 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/07/18 07:55:54 [notice] 1#1: OS: Linux 6.15.6-arch1-1
+2025/07/18 07:55:54 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2025/07/18 07:55:54 [notice] 1#1: start worker processes
+2025/07/18 07:55:54 [notice] 1#1: start worker process 20
+2025/07/18 07:55:54 [notice] 1#1: start worker process 21
+2025/07/18 07:55:54 [notice] 1#1: start worker process 22
+2025/07/18 07:55:54 [notice] 1#1: start worker process 23
+2025/07/18 07:55:54 [notice] 1#1: start worker process 24
+2025/07/18 07:55:54 [notice] 1#1: start worker process 25
+2025/07/18 07:55:54 [notice] 1#1: start worker process 26
+2025/07/18 07:55:54 [notice] 1#1: start worker process 27
+2025/07/18 07:56:49 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/07/18 07:56:49 [notice] 21#21: gracefully shutting down
+2025/07/18 07:56:49 [notice] 20#20: gracefully shutting down
+2025/07/18 07:56:49 [notice] 21#21: exiting
+2025/07/18 07:56:49 [notice] 20#20: exiting
+2025/07/18 07:56:49 [notice] 24#24: gracefully shutting down
+2025/07/18 07:56:49 [notice] 23#23: gracefully shutting down
+2025/07/18 07:56:49 [notice] 24#24: exiting
+2025/07/18 07:56:49 [notice] 22#22: gracefully shutting down
+2025/07/18 07:56:49 [notice] 26#26: gracefully shutting down
+2025/07/18 07:56:49 [notice] 22#22: exiting
+2025/07/18 07:56:49 [notice] 26#26: exiting
+2025/07/18 07:56:49 [notice] 23#23: exiting
+2025/07/18 07:56:49 [notice] 25#25: gracefully shutting down
+2025/07/18 07:56:49 [notice] 25#25: exiting
+2025/07/18 07:56:49 [notice] 20#20: exit
+2025/07/18 07:56:49 [notice] 26#26: exit
+2025/07/18 07:56:49 [notice] 24#24: exit
+2025/07/18 07:56:49 [notice] 25#25: exit
+2025/07/18 07:56:49 [notice] 27#27: gracefully shutting down
+2025/07/18 07:56:49 [notice] 27#27: exiting
+2025/07/18 07:56:49 [notice] 21#21: exit
+2025/07/18 07:56:49 [notice] 27#27: exit
+2025/07/18 07:56:49 [notice] 22#22: exit
+2025/07/18 07:56:49 [notice] 23#23: exit
+2025/07/18 07:56:49 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2025/07/18 07:56:49 [notice] 1#1: worker process 25 exited with code 0
+2025/07/18 07:56:49 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:56:49 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/07/18 07:56:49 [notice] 1#1: worker process 22 exited with code 0
+2025/07/18 07:56:49 [notice] 1#1: worker process 23 exited with code 0
+2025/07/18 07:56:49 [notice] 1#1: worker process 26 exited with code 0
+2025/07/18 07:56:49 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:56:49 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2025/07/18 07:56:49 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2025/07/18 07:56:49 [notice] 1#1: worker process 20 exited with code 0
+2025/07/18 07:56:49 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:56:49 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/07/18 07:56:49 [notice] 1#1: worker process 24 exited with code 0
+2025/07/18 07:56:49 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:56:49 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2025/07/18 07:56:49 [notice] 1#1: worker process 27 exited with code 0
+2025/07/18 07:56:49 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 07:56:49 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/07/18 07:56:49 [notice] 1#1: worker process 21 exited with code 0
+2025/07/18 07:56:49 [notice] 1#1: exit
+2025/07/18 07:56:55 [notice] 1#1: using the "epoll" event method
+2025/07/18 07:56:55 [notice] 1#1: nginx/1.29.0
+2025/07/18 07:56:55 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/07/18 07:56:55 [notice] 1#1: OS: Linux 6.15.6-arch1-1
+2025/07/18 07:56:55 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2025/07/18 07:56:55 [notice] 1#1: start worker processes
+2025/07/18 07:56:55 [notice] 1#1: start worker process 19
+2025/07/18 07:56:55 [notice] 1#1: start worker process 20
+2025/07/18 07:56:55 [notice] 1#1: start worker process 21
+2025/07/18 07:56:55 [notice] 1#1: start worker process 22
+2025/07/18 07:56:55 [notice] 1#1: start worker process 23
+2025/07/18 07:56:55 [notice] 1#1: start worker process 24
+2025/07/18 07:56:55 [notice] 1#1: start worker process 25
+2025/07/18 07:56:55 [notice] 1#1: start worker process 26
+2025/07/18 08:00:59 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/07/18 08:00:59 [notice] 20#20: gracefully shutting down
+2025/07/18 08:00:59 [notice] 21#21: gracefully shutting down
+2025/07/18 08:00:59 [notice] 22#22: gracefully shutting down
+2025/07/18 08:00:59 [notice] 19#19: gracefully shutting down
+2025/07/18 08:00:59 [notice] 20#20: exiting
+2025/07/18 08:00:59 [notice] 21#21: exiting
+2025/07/18 08:00:59 [notice] 22#22: exiting
+2025/07/18 08:00:59 [notice] 19#19: exiting
+2025/07/18 08:00:59 [notice] 24#24: gracefully shutting down
+2025/07/18 08:00:59 [notice] 24#24: exiting
+2025/07/18 08:00:59 [notice] 23#23: gracefully shutting down
+2025/07/18 08:00:59 [notice] 23#23: exiting
+2025/07/18 08:00:59 [notice] 26#26: gracefully shutting down
+2025/07/18 08:00:59 [notice] 26#26: exiting
+2025/07/18 08:00:59 [notice] 21#21: exit
+2025/07/18 08:00:59 [notice] 22#22: exit
+2025/07/18 08:00:59 [notice] 23#23: exit
+2025/07/18 08:00:59 [notice] 20#20: exit
+2025/07/18 08:00:59 [notice] 26#26: exit
+2025/07/18 08:00:59 [notice] 25#25: gracefully shutting down
+2025/07/18 08:00:59 [notice] 25#25: exiting
+2025/07/18 08:00:59 [notice] 19#19: exit
+2025/07/18 08:00:59 [notice] 24#24: exit
+2025/07/18 08:00:59 [notice] 25#25: exit
+2025/07/18 08:00:59 [notice] 1#1: signal 17 (SIGCHLD) received from 19
+2025/07/18 08:00:59 [notice] 1#1: worker process 19 exited with code 0
+2025/07/18 08:00:59 [notice] 1#1: worker process 22 exited with code 0
+2025/07/18 08:00:59 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 08:00:59 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/07/18 08:00:59 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/07/18 08:00:59 [notice] 1#1: worker process 21 exited with code 0
+2025/07/18 08:00:59 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 08:00:59 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2025/07/18 08:00:59 [notice] 1#1: worker process 25 exited with code 0
+2025/07/18 08:00:59 [notice] 1#1: worker process 23 exited with code 0
+2025/07/18 08:00:59 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 08:00:59 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2025/07/18 08:00:59 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/07/18 08:00:59 [notice] 1#1: worker process 24 exited with code 0
+2025/07/18 08:00:59 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 08:00:59 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2025/07/18 08:00:59 [notice] 1#1: worker process 20 exited with code 0
+2025/07/18 08:00:59 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 08:00:59 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2025/07/18 08:00:59 [notice] 1#1: worker process 26 exited with code 0
+2025/07/18 08:00:59 [notice] 1#1: exit
+2025/07/18 08:01:08 [notice] 1#1: using the "epoll" event method
+2025/07/18 08:01:08 [notice] 1#1: nginx/1.29.0
+2025/07/18 08:01:08 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/07/18 08:01:08 [notice] 1#1: OS: Linux 6.15.6-arch1-1
+2025/07/18 08:01:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2025/07/18 08:01:08 [notice] 1#1: start worker processes
+2025/07/18 08:01:08 [notice] 1#1: start worker process 20
+2025/07/18 08:01:08 [notice] 1#1: start worker process 21
+2025/07/18 08:01:08 [notice] 1#1: start worker process 22
+2025/07/18 08:01:08 [notice] 1#1: start worker process 23
+2025/07/18 08:01:08 [notice] 1#1: start worker process 24
+2025/07/18 08:01:08 [notice] 1#1: start worker process 25
+2025/07/18 08:01:08 [notice] 1#1: start worker process 26
+2025/07/18 08:01:08 [notice] 1#1: start worker process 27
+2025/07/18 08:01:37 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/07/18 08:01:37 [notice] 23#23: gracefully shutting down
+2025/07/18 08:01:37 [notice] 20#20: gracefully shutting down
+2025/07/18 08:01:37 [notice] 27#27: gracefully shutting down
+2025/07/18 08:01:37 [notice] 27#27: exiting
+2025/07/18 08:01:37 [notice] 20#20: exiting
+2025/07/18 08:01:37 [notice] 23#23: exiting
+2025/07/18 08:01:37 [notice] 20#20: exit
+2025/07/18 08:01:37 [notice] 21#21: gracefully shutting down
+2025/07/18 08:01:37 [notice] 23#23: exit
+2025/07/18 08:01:37 [notice] 24#24: gracefully shutting down
+2025/07/18 08:01:37 [notice] 24#24: exiting
+2025/07/18 08:01:37 [notice] 21#21: exiting
+2025/07/18 08:01:37 [notice] 24#24: exit
+2025/07/18 08:01:37 [notice] 21#21: exit
+2025/07/18 08:01:37 [notice] 27#27: exit
+2025/07/18 08:01:37 [notice] 25#25: gracefully shutting down
+2025/07/18 08:01:37 [notice] 26#26: gracefully shutting down
+2025/07/18 08:01:37 [notice] 26#26: exiting
+2025/07/18 08:01:37 [notice] 25#25: exiting
+2025/07/18 08:01:37 [notice] 25#25: exit
+2025/07/18 08:01:37 [notice] 26#26: exit
+2025/07/18 08:01:37 [notice] 22#22: gracefully shutting down
+2025/07/18 08:01:37 [notice] 22#22: exiting
+2025/07/18 08:01:37 [notice] 22#22: exit
+2025/07/18 08:01:37 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2025/07/18 08:01:37 [notice] 1#1: worker process 21 exited with code 0
+2025/07/18 08:01:37 [notice] 1#1: worker process 24 exited with code 0
+2025/07/18 08:01:37 [notice] 1#1: worker process 25 exited with code 0
+2025/07/18 08:01:37 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 08:01:37 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/07/18 08:01:37 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2025/07/18 08:01:37 [notice] 1#1: worker process 23 exited with code 0
+2025/07/18 08:01:37 [notice] 1#1: worker process 27 exited with code 0
+2025/07/18 08:01:37 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 08:01:37 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2025/07/18 08:01:37 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2025/07/18 08:01:37 [notice] 1#1: worker process 26 exited with code 0
+2025/07/18 08:01:37 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 08:01:37 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/07/18 08:01:37 [notice] 1#1: worker process 22 exited with code 0
+2025/07/18 08:01:37 [notice] 1#1: worker process 20 exited with code 0
+2025/07/18 08:01:37 [notice] 1#1: exit
+2025/07/18 08:01:40 [notice] 1#1: using the "epoll" event method
+2025/07/18 08:01:40 [notice] 1#1: nginx/1.29.0
+2025/07/18 08:01:40 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/07/18 08:01:40 [notice] 1#1: OS: Linux 6.15.6-arch1-1
+2025/07/18 08:01:40 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2025/07/18 08:01:40 [notice] 1#1: start worker processes
+2025/07/18 08:01:40 [notice] 1#1: start worker process 20
+2025/07/18 08:01:40 [notice] 1#1: start worker process 21
+2025/07/18 08:01:40 [notice] 1#1: start worker process 22
+2025/07/18 08:01:40 [notice] 1#1: start worker process 23
+2025/07/18 08:01:40 [notice] 1#1: start worker process 24
+2025/07/18 08:01:40 [notice] 1#1: start worker process 25
+2025/07/18 08:01:40 [notice] 1#1: start worker process 26
+2025/07/18 08:01:40 [notice] 1#1: start worker process 27
+2025/07/18 08:03:32 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/07/18 08:03:32 [notice] 22#22: gracefully shutting down
+2025/07/18 08:03:32 [notice] 21#21: gracefully shutting down
+2025/07/18 08:03:32 [notice] 23#23: gracefully shutting down
+2025/07/18 08:03:32 [notice] 20#20: gracefully shutting down
+2025/07/18 08:03:32 [notice] 23#23: exiting
+2025/07/18 08:03:32 [notice] 22#22: exiting
+2025/07/18 08:03:32 [notice] 21#21: exiting
+2025/07/18 08:03:32 [notice] 20#20: exiting
+2025/07/18 08:03:32 [notice] 21#21: exit
+2025/07/18 08:03:32 [notice] 22#22: exit
+2025/07/18 08:03:32 [notice] 23#23: exit
+2025/07/18 08:03:32 [notice] 20#20: exit
+2025/07/18 08:03:32 [notice] 24#24: gracefully shutting down
+2025/07/18 08:03:32 [notice] 24#24: exiting
+2025/07/18 08:03:32 [notice] 25#25: gracefully shutting down
+2025/07/18 08:03:32 [notice] 25#25: exiting
+2025/07/18 08:03:32 [notice] 24#24: exit
+2025/07/18 08:03:32 [notice] 26#26: gracefully shutting down
+2025/07/18 08:03:32 [notice] 26#26: exiting
+2025/07/18 08:03:32 [notice] 25#25: exit
+2025/07/18 08:03:32 [notice] 26#26: exit
+2025/07/18 08:03:32 [notice] 27#27: gracefully shutting down
+2025/07/18 08:03:32 [notice] 27#27: exiting
+2025/07/18 08:03:32 [notice] 27#27: exit
+2025/07/18 08:03:32 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/07/18 08:03:32 [notice] 1#1: worker process 20 exited with code 0
+2025/07/18 08:03:32 [notice] 1#1: worker process 22 exited with code 0
+2025/07/18 08:03:32 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 08:03:32 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2025/07/18 08:03:32 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2025/07/18 08:03:32 [notice] 1#1: worker process 25 exited with code 0
+2025/07/18 08:03:32 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 08:03:32 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2025/07/18 08:03:32 [notice] 1#1: worker process 26 exited with code 0
+2025/07/18 08:03:32 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 08:03:32 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/07/18 08:03:32 [notice] 1#1: worker process 21 exited with code 0
+2025/07/18 08:03:32 [notice] 1#1: worker process 23 exited with code 0
+2025/07/18 08:03:32 [notice] 1#1: worker process 24 exited with code 0
+2025/07/18 08:03:32 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 08:03:32 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2025/07/18 08:03:32 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2025/07/18 08:03:32 [notice] 1#1: worker process 27 exited with code 0
+2025/07/18 08:03:32 [notice] 1#1: exit
+2025/07/18 08:03:35 [notice] 1#1: using the "epoll" event method
+2025/07/18 08:03:35 [notice] 1#1: nginx/1.29.0
+2025/07/18 08:03:35 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/07/18 08:03:35 [notice] 1#1: OS: Linux 6.15.6-arch1-1
+2025/07/18 08:03:35 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2025/07/18 08:03:35 [notice] 1#1: start worker processes
+2025/07/18 08:03:35 [notice] 1#1: start worker process 19
+2025/07/18 08:03:35 [notice] 1#1: start worker process 20
+2025/07/18 08:03:35 [notice] 1#1: start worker process 21
+2025/07/18 08:03:35 [notice] 1#1: start worker process 22
+2025/07/18 08:03:35 [notice] 1#1: start worker process 23
+2025/07/18 08:03:35 [notice] 1#1: start worker process 24
+2025/07/18 08:03:35 [notice] 1#1: start worker process 25
+2025/07/18 08:03:35 [notice] 1#1: start worker process 26
+2025/07/18 08:07:01 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/07/18 08:07:01 [notice] 19#19: gracefully shutting down
+2025/07/18 08:07:01 [notice] 23#23: gracefully shutting down
+2025/07/18 08:07:01 [notice] 21#21: gracefully shutting down
+2025/07/18 08:07:01 [notice] 25#25: gracefully shutting down
+2025/07/18 08:07:01 [notice] 19#19: exiting
+2025/07/18 08:07:01 [notice] 23#23: exiting
+2025/07/18 08:07:01 [notice] 21#21: exiting
+2025/07/18 08:07:01 [notice] 25#25: exiting
+2025/07/18 08:07:01 [notice] 20#20: gracefully shutting down
+2025/07/18 08:07:01 [notice] 22#22: gracefully shutting down
+2025/07/18 08:07:01 [notice] 20#20: exiting
+2025/07/18 08:07:01 [notice] 22#22: exiting
+2025/07/18 08:07:01 [notice] 25#25: exit
+2025/07/18 08:07:01 [notice] 19#19: exit
+2025/07/18 08:07:01 [notice] 22#22: exit
+2025/07/18 08:07:01 [notice] 23#23: exit
+2025/07/18 08:07:01 [notice] 24#24: gracefully shutting down
+2025/07/18 08:07:01 [notice] 24#24: exiting
+2025/07/18 08:07:01 [notice] 20#20: exit
+2025/07/18 08:07:01 [notice] 21#21: exit
+2025/07/18 08:07:01 [notice] 26#26: gracefully shutting down
+2025/07/18 08:07:01 [notice] 26#26: exiting
+2025/07/18 08:07:01 [notice] 24#24: exit
+2025/07/18 08:07:01 [notice] 26#26: exit
+2025/07/18 08:07:01 [notice] 1#1: signal 17 (SIGCHLD) received from 19
+2025/07/18 08:07:01 [notice] 1#1: worker process 19 exited with code 0
+2025/07/18 08:07:01 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 08:07:01 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/07/18 08:07:01 [notice] 1#1: worker process 23 exited with code 0
+2025/07/18 08:07:01 [notice] 1#1: worker process 24 exited with code 0
+2025/07/18 08:07:01 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 08:07:01 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2025/07/18 08:07:01 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2025/07/18 08:07:01 [notice] 1#1: worker process 26 exited with code 0
+2025/07/18 08:07:01 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 08:07:01 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2025/07/18 08:07:01 [notice] 1#1: worker process 25 exited with code 0
+2025/07/18 08:07:01 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 08:07:01 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2025/07/18 08:07:01 [notice] 1#1: worker process 20 exited with code 0
+2025/07/18 08:07:01 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 08:07:01 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/07/18 08:07:01 [notice] 1#1: worker process 21 exited with code 0
+2025/07/18 08:07:01 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 08:07:01 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/07/18 08:07:01 [notice] 1#1: worker process 22 exited with code 0
+2025/07/18 08:07:01 [notice] 1#1: exit
+2025/07/18 08:12:10 [emerg] 1#1: host not found in upstream "gitea" in /etc/nginx/conf.d/gitea.conf:13
+2025/07/18 08:12:27 [notice] 1#1: using the "epoll" event method
+2025/07/18 08:12:27 [notice] 1#1: nginx/1.29.0
+2025/07/18 08:12:27 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/07/18 08:12:27 [notice] 1#1: OS: Linux 6.15.6-arch1-1
+2025/07/18 08:12:27 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2025/07/18 08:12:27 [notice] 1#1: start worker processes
+2025/07/18 08:12:27 [notice] 1#1: start worker process 19
+2025/07/18 08:12:27 [notice] 1#1: start worker process 20
+2025/07/18 08:12:27 [notice] 1#1: start worker process 21
+2025/07/18 08:12:27 [notice] 1#1: start worker process 22
+2025/07/18 08:12:27 [notice] 1#1: start worker process 23
+2025/07/18 08:12:27 [notice] 1#1: start worker process 24
+2025/07/18 08:12:27 [notice] 1#1: start worker process 25
+2025/07/18 08:12:27 [notice] 1#1: start worker process 26
+2025/07/18 08:20:39 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/07/18 08:20:39 [notice] 19#19: gracefully shutting down
+2025/07/18 08:20:39 [notice] 19#19: exiting
+2025/07/18 08:20:39 [notice] 19#19: exit
+2025/07/18 08:20:39 [notice] 22#22: gracefully shutting down
+2025/07/18 08:20:39 [notice] 20#20: gracefully shutting down
+2025/07/18 08:20:39 [notice] 26#26: gracefully shutting down
+2025/07/18 08:20:39 [notice] 22#22: exiting
+2025/07/18 08:20:39 [notice] 20#20: exiting
+2025/07/18 08:20:39 [notice] 26#26: exiting
+2025/07/18 08:20:39 [notice] 24#24: gracefully shutting down
+2025/07/18 08:20:39 [notice] 23#23: gracefully shutting down
+2025/07/18 08:20:39 [notice] 24#24: exiting
+2025/07/18 08:20:39 [notice] 23#23: exiting
+2025/07/18 08:20:39 [notice] 25#25: gracefully shutting down
+2025/07/18 08:20:39 [notice] 25#25: exiting
+2025/07/18 08:20:39 [notice] 21#21: gracefully shutting down
+2025/07/18 08:20:39 [notice] 21#21: exiting
+2025/07/18 08:20:39 [notice] 22#22: exit
+2025/07/18 08:20:39 [notice] 23#23: exit
+2025/07/18 08:20:39 [notice] 26#26: exit
+2025/07/18 08:20:39 [notice] 25#25: exit
+2025/07/18 08:20:39 [notice] 20#20: exit
+2025/07/18 08:20:39 [notice] 24#24: exit
+2025/07/18 08:20:39 [notice] 21#21: exit
+2025/07/18 08:20:39 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/07/18 08:20:39 [notice] 1#1: worker process 24 exited with code 0
+2025/07/18 08:20:39 [notice] 1#1: worker process 25 exited with code 0
+2025/07/18 08:20:39 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 08:20:39 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2025/07/18 08:20:39 [notice] 1#1: signal 17 (SIGCHLD) received from 19
+2025/07/18 08:20:39 [notice] 1#1: worker process 19 exited with code 0
+2025/07/18 08:20:39 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 08:20:39 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2025/07/18 08:20:39 [notice] 1#1: worker process 21 exited with code 0
+2025/07/18 08:20:39 [notice] 1#1: worker process 20 exited with code 0
+2025/07/18 08:20:39 [notice] 1#1: worker process 23 exited with code 0
+2025/07/18 08:20:39 [notice] 1#1: worker process 26 exited with code 0
+2025/07/18 08:20:39 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 08:20:39 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2025/07/18 08:20:39 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2025/07/18 08:20:39 [notice] 1#1: worker process 22 exited with code 0
+2025/07/18 08:20:39 [notice] 1#1: exit
+2025/07/18 08:20:57 [notice] 1#1: using the "epoll" event method
+2025/07/18 08:20:57 [notice] 1#1: nginx/1.29.0
+2025/07/18 08:20:57 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/07/18 08:20:57 [notice] 1#1: OS: Linux 6.15.6-arch1-1
+2025/07/18 08:20:57 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2025/07/18 08:20:57 [notice] 1#1: start worker processes
+2025/07/18 08:20:57 [notice] 1#1: start worker process 20
+2025/07/18 08:20:57 [notice] 1#1: start worker process 21
+2025/07/18 08:20:57 [notice] 1#1: start worker process 22
+2025/07/18 08:20:57 [notice] 1#1: start worker process 23
+2025/07/18 08:20:57 [notice] 1#1: start worker process 24
+2025/07/18 08:20:57 [notice] 1#1: start worker process 25
+2025/07/18 08:20:57 [notice] 1#1: start worker process 26
+2025/07/18 08:20:57 [notice] 1#1: start worker process 27
+2025/07/18 08:23:32 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/07/18 08:23:32 [notice] 22#22: gracefully shutting down
+2025/07/18 08:23:32 [notice] 23#23: gracefully shutting down
+2025/07/18 08:23:32 [notice] 24#24: gracefully shutting down
+2025/07/18 08:23:32 [notice] 26#26: gracefully shutting down
+2025/07/18 08:23:32 [notice] 22#22: exiting
+2025/07/18 08:23:32 [notice] 23#23: exiting
+2025/07/18 08:23:32 [notice] 20#20: gracefully shutting down
+2025/07/18 08:23:32 [notice] 24#24: exiting
+2025/07/18 08:23:32 [notice] 26#26: exiting
+2025/07/18 08:23:32 [notice] 20#20: exiting
+2025/07/18 08:23:32 [notice] 21#21: gracefully shutting down
+2025/07/18 08:23:32 [notice] 21#21: exiting
+2025/07/18 08:23:32 [notice] 20#20: exit
+2025/07/18 08:23:32 [notice] 24#24: exit
+2025/07/18 08:23:32 [notice] 22#22: exit
+2025/07/18 08:23:32 [notice] 26#26: exit
+2025/07/18 08:23:32 [notice] 23#23: exit
+2025/07/18 08:23:32 [notice] 21#21: exit
+2025/07/18 08:23:32 [notice] 25#25: gracefully shutting down
+2025/07/18 08:23:32 [notice] 25#25: exiting
+2025/07/18 08:23:32 [notice] 25#25: exit
+2025/07/18 08:23:32 [notice] 27#27: gracefully shutting down
+2025/07/18 08:23:32 [notice] 27#27: exiting
+2025/07/18 08:23:32 [notice] 27#27: exit
+2025/07/18 08:23:32 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2025/07/18 08:23:32 [notice] 1#1: worker process 23 exited with code 0
+2025/07/18 08:23:32 [notice] 1#1: worker process 26 exited with code 0
+2025/07/18 08:23:32 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 08:23:32 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2025/07/18 08:23:32 [notice] 1#1: worker process 22 exited with code 0
+2025/07/18 08:23:32 [notice] 1#1: worker process 24 exited with code 0
+2025/07/18 08:23:32 [notice] 1#1: worker process 25 exited with code 0
+2025/07/18 08:23:32 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 08:23:32 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2025/07/18 08:23:32 [notice] 1#1: worker process 20 exited with code 0
+2025/07/18 08:23:32 [notice] 1#1: signal 29 (SIGIO) received
+2025/07/18 08:23:32 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2025/07/18 08:23:32 [notice] 1#1: worker process 27 exited with code 0
+2025/07/18 08:23:32 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2025/07/18 08:23:32 [notice] 1#1: worker process 21 exited with code 0
+2025/07/18 08:23:32 [notice] 1#1: exit
+2025/07/18 08:23:44 [notice] 1#1: using the "epoll" event method
+2025/07/18 08:23:44 [notice] 1#1: nginx/1.29.0
+2025/07/18 08:23:44 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/07/18 08:23:44 [notice] 1#1: OS: Linux 6.15.6-arch1-1
+2025/07/18 08:23:44 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1024:524288
+2025/07/18 08:23:44 [notice] 1#1: start worker processes
+2025/07/18 08:23:44 [notice] 1#1: start worker process 20
+2025/07/18 08:23:44 [notice] 1#1: start worker process 21
+2025/07/18 08:23:44 [notice] 1#1: start worker process 22
+2025/07/18 08:23:44 [notice] 1#1: start worker process 23
+2025/07/18 08:23:44 [notice] 1#1: start worker process 24
+2025/07/18 08:23:44 [notice] 1#1: start worker process 25
+2025/07/18 08:23:44 [notice] 1#1: start worker process 26
+2025/07/18 08:23:44 [notice] 1#1: start worker process 27
+2025/07/18 08:23:45 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.25.0.1, server: gitea.elgem.be, request: "POST /Admin/module-a/actions/runs/5/jobs/0 HTTP/1.1", upstream: "http://172.25.0.3:3000/Admin/module-a/actions/runs/5/jobs/0", host: "gitea.elgem.be"
+2025/07/18 08:23:46 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.25.0.1, server: gitea.elgem.be, request: "POST /Admin/module-a/actions/runs/5/jobs/0 HTTP/1.1", upstream: "http://172.25.0.3:3000/Admin/module-a/actions/runs/5/jobs/0", host: "gitea.elgem.be"
+2025/07/18 08:23:48 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.25.0.1, server: gitea.elgem.be, request: "POST /Admin/module-a/actions/runs/5/jobs/0 HTTP/1.1", upstream: "http://172.25.0.3:3000/Admin/module-a/actions/runs/5/jobs/0", host: "gitea.elgem.be"

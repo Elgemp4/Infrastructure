@@ -1,15 +1,27 @@
 services:
+  bind9:
+    image: ubuntu/bind9:latest
+    ports:
+      - "53:53/udp"
+      - "53:53/tcp"
+    volumes:
+      - ./data/dns/zones:/var/lib/bind
+      - ./data/dns/named.conf:/etc/bind/named.conf
+
+    networks:
+      gitea-net:
+        ipv4_address: 172.25.0.10
+
   #A local private docker registry for competitors to publish their modules docker images onto
   registry:
     image: registry:2
     restart: always
-    ports:
-      - "5000:5000"
     environment:
       REGISTRY_AUTH: htpasswd
       REGISTRY_AUTH_HTPASSWD_REALM: Registry-Realm
       REGISTRY_AUTH_HTPASSWD_PATH: /auth/registry.passwd
       REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY: /data
+    dns: 172.25.0.10
     volumes:
       - ./data/local-registry/data:/data
       - ./data/local-registry/auth:/auth
@@ -23,6 +35,9 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
     command: --interval 30 --cleanup=true # The intervals in second at which watch tower will check for updates
+    dns: 172.25.0.10
+    networks:
+      - gitea-net
   # MariaDB Server for services & competitors databases
   db:
     image: mariadb:10.11
@@ -31,6 +46,7 @@ services:
       - 3306:3306
     volumes:
       - ./data/mariadb_data:/var/lib/mysql
+    dns: 172.25.0.10
     environment:
       MYSQL_ROOT_PASSWORD: root
     networks:
@@ -39,8 +55,6 @@ services:
   phpmyadmin:
     image: phpmyadmin
     restart: always
-    ports:
-      - 8080:80
     environment:
       PMA_HOST: db
       PMA_PORT: 3306
@@ -51,29 +65,35 @@ services:
     image: portainer/portainer-ce
     container_name: portainer
     restart: always
-    ports:
-      - "9000:9000"
+    dns: 172.25.0.10
     volumes:
       - "/var/run/docker.sock:/var/run/docker.sock"
+      - "./data/portainer:/data"
     networks:
       - gitea-net
   # A machine wide reverse proxy for host reserve proxy reversing
   general-reverse-proxy:
     image: nginx:alpine
     container_name: reverse-proxy
+    dns: 172.25.0.10
+    ports:
+      - 80:80
+      - 443:443
     volumes:
       - ./data/nginx/conf.d:/etc/nginx/conf.d
       - ./data/nginx/ssl/:/etc/nginx/ssl/
       - ./data/nginx/certs:/etc/nginx/certs
       - ./data/nginx/html:/usr/share/nginx/html
       - ./data/nginx/logs:/var/log/nginx
-    network_mode: host
+    networks:
+      - gitea-net
     depends_on:
       - phpmyadmin
   # The gitea service (equivalent of local github)
   gitea:
     image: docker.gitea.com/gitea:1.24.3
     container_name: gitea
+    dns: 172.25.0.10
     environment:
       - USER_UID=1000
       - USER_GID=1000
@@ -85,33 +105,30 @@ services:
       - /etc/timezone:/etc/timezone:ro
       - /etc/localtime:/etc/localtime:ro
     ports:
-      - "3000:3000"
       - "22:22"
   # The runner for gitea action allowing for the CI/CD pipelines to work
-  gitea-runner:
-    image: gitea/act_runner:latest
-    container_name: gitea-runner
-    depends_on:
-      - gitea
+  runner:
+    image: docker.io/gitea/act_runner:nightly
+    restart: unless-stopped
+    dns: 172.25.0.10
+    environment:
+      CONFIG_FILE: /data/config.yaml
+      GITEA_INSTANCE_URL: "https://gitea.elgem.be"
+      GITEA_RUNNER_REGISTRATION_TOKEN: "Owz34saMQ6ocCpv1jbz1gWLiMFPK1KoCryOxhjO0"
+      GITEA_RUNNER_NAME: "Gitea Act Runner"
+      GITEA_RUNNER_LABELS: ""
     volumes:
       - ./data/gitea-runner:/data
       - /var/run/docker.sock:/var/run/docker.sock
-    entrypoint: ["/bin/sh", "-c"]
-    command:
-      - |
-        if [ ! -f /data/.runner ]; then
-          gitea-token=$(curl -s -X POST http://gitea:3000/api/v1/users/admin/tokens \
-            -H "Content-Type: application/json" \
-            -u admin:admin \
-            -d '{"name":"runner-token"}' | jq -r .sha1)
-          /usr/local/bin/act_runner register \
-            --instance http://gitea:3000 \
-            --token $gitea-token \
-            --name runner01 \
-            --labels docker
-          touch /data/.runner
-        fi
-        /usr/local/bin/act_runner daemon
+    networks:
+      - gitea-net
+    depends_on:
+      - gitea
+      - general-reverse-proxy
+
 networks:
   gitea-net:
     driver: bridge
+    ipam:
+      config:
+        - subnet: 172.25.0.0/16
