@@ -16,33 +16,37 @@ services:
     networks:
       gitea-net:
         ipv4_address: 172.25.0.10
-
-  #A local private docker registry for competitors to publish their modules docker images onto
-  #registry:
-  #  image: registry:2
-  #  restart: always
-  #  environment:
-  #    REGISTRY_AUTH: htpasswd
-  #    REGISTRY_AUTH_HTPASSWD_REALM: Registry-Realm
-  #    REGISTRY_AUTH_HTPASSWD_PATH: /auth/registry.passwd
-  #    REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY: /data
-  #  dns: 172.25.0.10
-  #  volumes:
-  #    - ./data/local-registry/data:/data
-  #    - ./data/local-registry/auth:/auth
-  #  networks:
-  #    - gitea-net
-  # A service that will periodically check for new images versions in the local private docker registry and deploy them if needed
-  watchtower:
-    image: containrrr/watchtower
-    restart: always
-
+  updater:
+    # Use a build context to build the image from the Dockerfile
+    build:
+      context: ./auto-updater
+    container_name: gitea-image-updater
+    restart: unless-stopped
+    # Mount the Docker socket from the host. This is CRITICAL for the script to control the host's Docker daemon.
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-    command: --interval 30 --cleanup=true # The intervals in second at which watch tower will check for updates
-    dns: 172.25.0.10
+      # It's also critical to mount the docker config for registry authentication
+      - ~/.docker/config.json:/root/.docker/config.json:ro
+    # Pass environment variables to the container
+    environment:
+      # You must replace these values with your own
+      - GITEA_REGISTRY=gitea.elgem.be
+      - SLEEP_INTERVAL=5
     networks:
       - gitea-net
+  # A service that will periodically check for new images versions in the local private docker registry and deploy them if needed
+  #  watchtower:
+  #    image: containrrr/watchtower
+  #    restart: always
+  #    volumes:
+  #      - /var/run/docker.sock:/var/run/docker.sock
+  #      - ~/.docker/config.json:/config.json:ro
+  #    environment:
+  #      - DOCKER_CONFIG=/config.json
+  #    command: --interval 30 --cleanup=true # The intervals in second at which watch tower will check for updates
+  #    dns: 172.25.0.10
+  #    networks:
+  #      - gitea-net
   # MariaDB Server for services & competitors databases
   db:
     image: mariadb:10.11
@@ -66,16 +70,16 @@ services:
       PMA_ARBITRARY: 0
     networks:
       - gitea-net
-  portainer:
-    image: portainer/portainer-ce
-    container_name: portainer
-    restart: always
-    dns: 172.25.0.10
-    volumes:
-      - "/var/run/docker.sock:/var/run/docker.sock"
-      - "./data/portainer:/data"
-    networks:
-      - gitea-net
+  #  portainer:
+  #    image: portainer/portainer-ce
+  #    container_name: portainer
+  #    restart: always
+  #    dns: 172.25.0.10
+  #    volumes:
+  #      - "/var/run/docker.sock:/var/run/docker.sock"
+  #      - "./data/portainer:/data"
+  #    networks:
+  #      - gitea-net
   # A machine wide reverse proxy for host reserve proxy reversing
   general-reverse-proxy:
     image: nginx:alpine
